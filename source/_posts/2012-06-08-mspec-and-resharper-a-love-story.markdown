@@ -3,7 +3,7 @@ layout: post
 title: "MSpec &amp; ReSharper: A Love Story"
 date: 2012-06-08 14:17
 comments: true
-categories: 
+categories: mspec resharper productivity
 ---
 
 [MSpec][m] is my test framework of choice. I really like the [style of test][bdd] that it encourages (which is the topic for another post altogether). But, by default, there's a lot of complaining by ReSharper. Who wants to see their lovely spec

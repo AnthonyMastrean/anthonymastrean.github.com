@@ -3,7 +3,7 @@ layout: post
 title: "Migrating to Octopress!"
 date: 2012-06-07 13:28
 comments: true
-categories: 
+categories: octopress github blogging
 ---
 
 I've been reading about and thinking about migrating from Tumblr to [Octopress][op] & [github:pages][ghp] (I previously migrated from Blogger and, before that, Google Sites). A coworker moved her family blog around from WordPress to Octopress and, finally, to [ruh-oh][r]. And [Scott Muc][muc] just [moved to Octopress][muc1], so I thought I should too!
