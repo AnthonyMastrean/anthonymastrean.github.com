@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Don't Forward a Proxy"
+date: 2012-07-09 21:45
+comments: true
+categories: structuremap dynamicproxy interfaces
+---
+
+I have a class that implements two [behavioral interfaces][bi]
+
+```
+class StageManager : IMoveStages, IProvideEncoderPulseScale
+```
+
+I [registered][smap] both interfaces to the same concrete class.
+
+```
+For<IMoveStages>().Use<StageManager>();
+Forward<IMoveStages, IProvideEncoderPulseScale>();
+```
+
+The hardware controller, `IMoveStages`, is wrapped in error recovery logic (using [Dynamic Proxy][dyn] and the StructureMap DSL)
+
+```
+IfTypeMatches(type => typeof(IMoveStages).IsAssignableFrom(type))
+    .InterceptWith((ctx, target) => _proxyGen.CreateInterfaceProxyWithTarget(target, new RecoveryInterceptor()));
+```
+
+However, when I resolve `IProvideEncoderPulseScale`, I get `null`! Allow me to fast-forward past the debugging...
+
+I told Dynamic Proxy to proxy the concrete that was resolved for `IMoveStages`. So we get something like `class MoveStages_Proxy : IMoveStages`. StructureMap tried to forward the resolution of `IProvideEncoderPulseScale`, but the proxy only implements `IMoveStages`! Only the proxy's _target_ implements both interfaces.
+
+I implemented the quick fix and chained the interface declarations
+
+```
+interface IMoveStages : IProvideEncoderPulseScale
+```
+
+The real solution is to instruct Dynamic Proxy to [proxy the target and all it's interfaces][i], but only intercepting the actual target interface.
+
+ [bi]: http://simpleprogrammer.com/2010/11/02/back-to-basics-what-is-an-interface/
+ [smap]: https://github.com/structuremap/structuremap
+ [dyn]: http://www.castleproject.org/projects/dynamicproxy
+ [i]: http://kozmic.pl/2009/07/01/castle-dynamic-proxy-tutorial-part-xi-when-one-interface-is
