@@ -3,7 +3,7 @@ layout: post
 title: "Performance is not a Level, It's a logger!"
 date: 2012-08-07 00:05
 comments: true
-categories: log4net performance single-responsibility
+categories: log4net logging performance single-responsibility
 ---
 
 Have you ever wanted to log performance metrics? If you're using [log4net][l], have you implemented a custom `ILog` and added a new `Level`? That requires adding *five* new members to `ILogger`, creating a new `LogManager`, and overriding/assigning a new `Level` in the application configuration.
