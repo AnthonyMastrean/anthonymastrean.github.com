@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Eradicating Non-Determinism in Tests"
-date: 2012-07-09 21:16
+date: 2011-04-25 19:06
 comments: true
 categories: tests isolation async
 ---

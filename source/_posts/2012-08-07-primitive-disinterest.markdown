@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Primitive Disinterest"
-date: 2012-08-07 00:50
+date: 2011-07-08 00:00
 comments: true
 categories: primitive-obsession domain-driven-design
 ---

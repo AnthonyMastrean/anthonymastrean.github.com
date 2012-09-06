@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "StackOverflow DevDays 2009"
-date: 2012-07-09 22:06
+date: 2009-09-28 00:00
 comments: true
 categories: stackoverflow opinions iphone mvc convention estimation jquery dynamic agile
 ---

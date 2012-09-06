@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MSpec &amp; ReSharper: A Love Story"
-date: 2012-06-08 14:17
+date: 2011-04-18 21:45
 comments: true
 categories: mspec resharper productivity
 ---

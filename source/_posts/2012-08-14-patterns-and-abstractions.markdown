@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Patterns and Abstractions"
-date: 2012-08-14 01:38
+date: 2011-10-21 00:00
 comments: true
 categories: patterns functional-programming
 ---

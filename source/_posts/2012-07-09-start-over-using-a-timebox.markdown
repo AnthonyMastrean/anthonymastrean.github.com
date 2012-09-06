@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Start Over Using a Timebox"
-date: 2012-07-09 22:45
+date: 2011-05-19 00:00
 comments: true
 categories: refactoring timebox
 ---

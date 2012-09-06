@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Successful Solution Structure"
-date: 2012-08-14 01:00
+date: 2011-10-20 00:00
 comments: true
 categories: msbuild tfs teamcity vcs
 ---

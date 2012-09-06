@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "High Performance Appending with log4net"
-date: 2012-08-07 00:19
+date: 2011-05-26 00:00
 comments: true
 categories: log4net logging performance measurement
 ---

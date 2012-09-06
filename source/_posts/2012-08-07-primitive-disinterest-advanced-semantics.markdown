@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Primitive Disinterest: Advanced Semantics"
-date: 2012-08-07 01:11
+date: 2011-07-09 00:00
 comments: true
 categories: primitive-obsession domain-driven-design
 ---

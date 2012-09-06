@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Event Handling Styles in Event Sourcing"
-date: 2012-08-14 01:27
+date: 2011-10-20 00:00
 comments: true
 categories: event-sourcing
 ---

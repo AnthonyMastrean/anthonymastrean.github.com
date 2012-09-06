@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Don't Forward a Proxy"
-date: 2012-07-09 21:45
+date: 2011-05-05 14:51
 comments: true
 categories: structuremap dynamicproxy interfaces
 ---
