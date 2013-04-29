@@ -4,7 +4,6 @@ title: "An Intro to Straight-Line Development"
 date: 2013-04-29 08:24
 comments: true
 categories: mercurial dvcs practices
-published: false
 ---
 
 I only started using Mercurial (Hg) a few weeks ago, so I'm going out on a limb here. I'm going to describe what straight-line development is, why it's valuable, and how to practice it! This is what the commit graph looks like on most days, especially after waiting a few days to push to the public repository. The best things about DVCSs can also induce headaches.
