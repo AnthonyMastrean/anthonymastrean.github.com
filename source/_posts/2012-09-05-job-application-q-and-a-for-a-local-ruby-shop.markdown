@@ -1,18 +1,16 @@
 ---
 layout: post
-title: "Job Application Q&amp;A for 4moms"
+title: "Job Application Q&amp;A for a Local Ruby Shop"
 date: 2012-09-05 19:48
 comments: true
 categories: interview
-published: false
 ---
 
 ## Do you have any experience programming in Ruby? If so, please describe.
 I wrote and primarily maintain the Rake build for our .NET solution. We must be able to pull any released version of the software out of the repository and re-build it (for regulatory reasons). We were using TeamCity's built-in runners, but were unable to store them with the code or audit it properly. Developing a Rake build allowed us to checkin the build script with every branch and release.
 
-We used the [Albacore][1] rake tasks for .NET from Derick Bailey. We contributed an MSTest task (which was pulled in) and an MSBuild task extension (waiting in a pull request). I wrote some more .NET specific [application metadata/configuration tasks][2] (pull request coming later) and a [simple deploy task][3]. Both of these have been published to RubyGems.
+We used the Albacore rake tasks for .NET from Derick Bailey. We contributed an MSTest task (which was pulled in) and an MSBuild task extension (waiting in a pull request). I wrote some more .NET specific [application metadata/configuration tasks][2] (pull request coming later) and a [simple deploy task][3]. Both of these have been published to RubyGems.
 
-  [1]: https://github.com/derickbailey/Albacore
   [2]: https://github.com/AnthonyMastrean/FileUpdateTasks
   [3]: https://github.com/AnthonyMastrean/LocalDropTasks
 
@@ -44,10 +42,9 @@ This principle has led me down the path of behavior driven development even in m
   [6]: http://simpleprogrammer.com/2010/11/02/back-to-basics-what-is-an-interface/
   [7]: http://www.anthonymastrean.com/blog/eradicating-non-determinism-in-tests/
 
-Let's not forget primitive obsession, which I've kicked! I won't bore you here, but you can check out what I've [already][8] [written][9].
+Let's not forget primitive obsession, which I've kicked! I won't bore you here, but you can check out what I've [already written][8].
 
   [8]: http://www.anthonymastrean.com/blog/primitive-disinterest/
-  [9]: http://www.anthonymastrean.com/blog/primitive-disinterest-advanced-semantics/
     
 ## Describe your professional passions, things that make you happy in your profession.
 Great teams are passionate and expert at their craft. When empowered to make decisions, they will blow through barriers and accomplish amazing things. If you have a team like this, trust them, and unleash them on your business! Projects and companies succeed or fail not due to technical problems/expertise, but due to people. I'm a culture geek and this means a lot to me.
