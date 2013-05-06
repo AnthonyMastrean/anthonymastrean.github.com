@@ -85,6 +85,10 @@ The only rule is
 
 > It's absolutely unwise, inappropriate, and downright dangerous to edit pushed, public history.
 
+A note for .NET users 
+
+> Both `rebase` and `histedit` remove and replay commits locally. If you have a solution open in Visual Studio, it will get cranky, warning about changes and prompting you to reload files or projects. I suggest closing the solution beforehand.
+
 ## A Sample Workflow with Screenshots!
 
 Let's take a look at some screenshots of a rebase/histedit workflow that I performed recently. Lot's of public changes coming in.
@@ -134,8 +138,57 @@ And it's on its way!
 hg push
 ```
 
-## One Last Note for .NET Users
-Both `rebase` and `histedit` remove and replay commits locally. If you have a solution or projects open in Visual Studio, it will get cranky, warning about changes and prompting you to reload files or projects. I tend to close the solution I'm working on before trying either of these commands.
+## Feature/Bugfix Branching
+You asked for it. Feature branches let you switch back to default and do hotfixes or pull remote changesets without messing with your work-in-progress. Mercurial does a few tricky things when pushing with new branches that other systems may not. So, pay attention. The workflow should integrate just fine with rebase. Let's start a new branch.
+
+```
+hg branch feature/import-big-layout
+```
+
+{% img /images/straight-line-development/branch.png %}
+
+Work on your feature until completion. When you're done and ready to synchronize, send this special commit. It tells Mercurial that your branch is no longer active.
+
+```
+hg commit -m "done" --close-branch
+```
+
+It's at this point that I like to `histedit` my feature branch. I can fold the close commit into the previous (it's not very interesting on its own). Merge the feature branch back into default. Then, follow the rebase guidance on default.
+
+```
+hg up default
+hg merge feature/import-big-layout
+```
+
+{% img /images/straight-line-development/up-merge.png %}
+
+Now, when we try to push, we get a scary alert.
+
+> abort: push creates new remote branches
+
+```
+hg push
+```
+
+{% img /images/straight-line-development/push.png %}
+
+What are we supposed to do with that? You could push default explicitly. 
+
+```
+hg push default
+```
+
+But, that's going to get annoying over time. Go ahead and push your new branch. It may be unnecessary, but it shouldn't offend anyone. The close commit should ensure that you only get bothered about this once.
+
+```
+hg push --new-branch
+```
+
+You'll see your feature branch break off of default and merge back, but it's self contained and still leaves default in a straight line.
+
+{% img /images/straight-line-development/commit-graph.png %}
+
+I shouldn't have to warn you about this now, but if you ever do push your feature branch to the server, to collaborate or whatever, don't edit its history (always use the `--outgoing` option of `histedit`). The workflow should still work out in the end.
 
 
  [1]: http://mercurial.selenic.com/wiki/RebaseExtension
