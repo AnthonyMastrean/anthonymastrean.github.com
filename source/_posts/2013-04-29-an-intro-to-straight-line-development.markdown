@@ -11,13 +11,13 @@ _Github pages is having issues serving images. I've contacted support and they'r
 
 I only started using Mercurial (Hg) a few weeks ago, so I'm going out on a limb here. I'm going to describe what straight-line development is, why it's valuable, and how to practice it! This is what the commit graph looks like on most days, especially after waiting a few days to push to the public repository. The best things about DVCSs can also induce headaches.
 
-{% img /images/straight-line-development/merge-history.png %}
+{% img /images/straight-line-development/01-merge-history.png %}
 
 You're seeing at least three merge commits across five lines of development (I don't know where these things come from!). That graph is pretty hard to follow. But, we're all working directly on the default branch. The contribution workflow should be very straight-forward. These aren't true feature-branch merges. They're remote repo race-to-pull-and-push-merge-commits!
 
 What we should see when we're done pushing is a straight line. There's something more clean, clear, and polite about this kind of history. And it's actually a truer representation of the way things were done. (Ignore the broken builds!)
 
-{% img /images/straight-line-development/straight-history.png %}
+{% img /images/straight-line-development/02-straight-history.png %}
 
 > It's a good idea to provide these contribution guidelines in your repository, try a `CONTRIBUTING.txt` file!
 
@@ -97,7 +97,7 @@ Let's take a look at some screenshots of a rebase/histedit workflow that I perfo
 hg incoming
 ```
 
-{% img /images/straight-line-development/incoming.png %}
+{% img /images/straight-line-development/03-incoming.png %}
 
 An easy rebase, I was working in another part of the system.
 
@@ -105,7 +105,7 @@ An easy rebase, I was working in another part of the system.
 hg pull --rebase
 ```
 
-{% img /images/straight-line-development/pull-rebase.png %}
+{% img /images/straight-line-development/04-pull-rebase.png %}
 
 A few local commits to go out.
 
@@ -113,7 +113,7 @@ A few local commits to go out.
 hg outgoing
 ```
 
-{% img /images/straight-line-development/outgoing.png %}
+{% img /images/straight-line-development/05-outgoing.png %}
 
 Fold them all into one another.
 
@@ -121,8 +121,8 @@ Fold them all into one another.
 hg histedit -o
 ```
 
-{% img /images/straight-line-development/histedit.png %}
-{% img /images/straight-line-development/histedit-start.png %}
+{% img /images/straight-line-development/06-histedit.png %}
+{% img /images/straight-line-development/07-histedit-start.png %}
 
 Now, only one going out.
 
@@ -130,7 +130,7 @@ Now, only one going out.
 hg outgoing
 ```
 
-{% img /images/straight-line-development/outgoing-done.png %}
+{% img /images/straight-line-development/08-outgoing-done.png %}
 
 And it's on its way!
 
@@ -145,7 +145,7 @@ You asked for it. Feature branches let you switch back to default and do hotfixe
 hg branch feature/import-big-layout
 ```
 
-{% img /images/straight-line-development/branch.png %}
+{% img /images/straight-line-development/09-branch.png %}
 
 Work on your feature until completion. When you're done and ready to synchronize, send this special commit. It tells Mercurial that your branch is no longer active.
 
@@ -160,7 +160,7 @@ hg up default
 hg merge feature/import-big-layout
 ```
 
-{% img /images/straight-line-development/up-merge.png %}
+{% img /images/straight-line-development/10-up-merge.png %}
 
 Now, when we try to push, we get a scary alert.
 
@@ -170,7 +170,7 @@ Now, when we try to push, we get a scary alert.
 hg push
 ```
 
-{% img /images/straight-line-development/push.png %}
+{% img /images/straight-line-development/11-push.png %}
 
 What are we supposed to do with that? You could push default explicitly. 
 
@@ -186,7 +186,7 @@ hg push --new-branch
 
 You'll see your feature branch break off of default and merge back, but it's self contained and still leaves default in a straight line.
 
-{% img /images/straight-line-development/commit-graph.png %}
+{% img /images/straight-line-development/12-commit-graph.png %}
 
 I shouldn't have to warn you about this now, but if you ever do push your feature branch to the server, to collaborate or whatever, don't edit its history (always use the `--outgoing` option of `histedit`). The workflow should still work out in the end.
 
