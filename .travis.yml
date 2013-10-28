@@ -6,6 +6,8 @@ rvm:
   - 1.9.3
 before_script:
   - export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
+  - git config --global user.name "Anthony Mastrean"
+  - git config --global user.email "anthony.mastrean@gmail.com"
   - rake setup_github_pages[$REPO_URL]
 script:
   - rake generate
