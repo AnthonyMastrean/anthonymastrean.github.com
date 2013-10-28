@@ -4,4 +4,23 @@ branches:
 language: ruby
 rvm:
   - 1.9.3
-script: bundle exec rake install; bundle exec rake generate
+before_script:
+  # Set the git config stuff, so Git stops yelling at us
+  - git config --global user.name "Anthony Mastrean (via Travis-CI)"
+  - git config --global user.email "anthony.mastrean@gmail.com"
+  # Set read-write git origin
+  - git remote set-url origin $REPO.git
+  # Unpack ssh key for git
+  - echo -n $id_rsa_{00..30} >> ~/.ssh/id_rsa_base64
+  - base64 --decode --ignore-garbage ~/.ssh/id_rsa_base64 > ~/.ssh/id_rsa
+  - chmod 600 ~/.ssh/id_rsa
+  # Disable SSH server fingerprint verification
+  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  # Set deployment target to github pages
+  - rake setup_github_pages[$REPO]
+  # Reset the 'url' to the custom domain in '_config.yml'
+  - git checkout -- _config.yml
+script:
+  - rake generate
+after_script:
+  - rake deploy
