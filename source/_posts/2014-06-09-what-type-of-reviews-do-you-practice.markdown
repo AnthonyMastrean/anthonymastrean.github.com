@@ -7,7 +7,7 @@ categories: practices, database
 published: false
 ---
 
-A professor of mine asked about the kind of "reviews" that I've practiced in the industry. In the [verification & validation][1] classes, they cover a wide array of practices. Some are more popular than others.
+A professor of mine asked about the kinds of "reviews" that I have practiced in the industry. They cover a wide range of practices in the [verification & validation][1] classes. Times, practices, and industry has changed and so some of these are more popular and others are practically unheard of anymore.
 
  * Ad Hoc Review
  * Peer Desk-Check
@@ -17,19 +17,19 @@ A professor of mine asked about the kind of "reviews" that I've practiced in the
  * Team Reviews
  * Formal Inspections
 
-I've had several jobs since college, worked on a few different teams within those jobs, and have a some different perspectives.
+I worked on contract teams, at a startup, and in the enterprise on enterprise software, mobile applications, and medical devices. So, I have some different perspectives, but it boils down to the following three practices.
 
 ## Pair Programming
 
-One of the teams I worked on was part of a "rescue" project. We were rewriting the control software for a medical device. It was late and over-budget and we had almost nothing usable except the theory of operations. We practiced [pair programming][2] on nearly all production and test code. This practice allowed us all to come up to speed together and avoid a point of failure (improving our "functional redundancy" or "resiliency"). We were able to design and code at the same time (navigator/driver theory). We were able to work quickly and iterate several times in one pairing session on an idea.
+One of the teams I worked on was part of a rescue project. We rewrote the control software for a medical device. It was late,  over-budget, and we had nothing salvagable except the theory of operations. We practiced [pair programming][2] on nearly all production _and_ test code. This allowed us to come up to speed together and avoid a single point of failure or bottleneck ("We can't complete this module because Chris is on vacation!"). We improved our "functional redundancy" or "resiliency" in this way. We were able to design and code at the same time (navigator/driver). We worked quickly and could iterate several times on a design or module in one pairing session.
 
 ## Team Review
 
-At X, the only practice I see formally enforced is code reviews (there's not much informal review going on, maybe desk check or one of those looser practices). We use a repository browser/review tool called Crucible that supports discussion over diffs, workflow (open, in-progress, completed), and integration with our issue tracker. My opinion is that our code is of low quality. I don't know that these reviews are helping or hurting... it's probably more a problem of culture than process/technology. Review-after-coding does not help to improve design, but may point out consistency/formatting issues and glaring syntactical defects.
+At most of my enteprise jobs, the only practice formally enforced was code review. There never was much informal review. Folks would occassionally ask for a "desk check" or the like. We often used separate repository browser tools (a popular one is [Crucible][3]) that support discussion over diffs, workflow (open, in-progress, completed), and integration with the issue tracker. In most of these places, the code was mediocre in quality and design. I don't know that code reviews were the cause. An after-coding review may point out consistency, formatting, or glaring syntactical issues, but it cannot usually improve design.
 
 ## Pull Request
 
-In my open-source experience and where I get to use it at work (on small/side projects), we use pull requests from forks or branches. This method is really just discussion over diffs on steroids. You can view the diffs and commit messages, carry on inline commentary, and continue to add commits to the request to address comments. Besides GitHub having one of the best interfaces (which can make or break energetic, deep reviews), it acts as a gate. The code is fully committed (safe) and reviewable (good), but it's not in the trunk yet. The owners of the repository/branch get control of that decision.
+In my open-source experience, we used [pull][5] [requests][4] from forks or branches. This method looks like discussion over diffs on steroids. You can view diffs and commit messages, carry on inline commentary, and continue to add commits to the request to address comments. GitHub simply has one of the best interfaces, which can make or break an energetic, deep review. A pull request also acts as a gate. The code is fully committed (safe) and reviewable (good), but it's not in the "master" branch yet. The owners of the repository/branch get control of that decision.
 
  [1]: https://en.wikipedia.org/wiki/Verification_and_validation_(software)
  [2]: http://www.jamesshore.com/Agile-Book/pair_programming.html
