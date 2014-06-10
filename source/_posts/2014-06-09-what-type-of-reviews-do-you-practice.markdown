@@ -3,7 +3,7 @@ layout: post
 title: "What Type of Reviews Do You Practice?"
 date: 2014-06-09 00:00
 comments: true
-categories: practices, database
+categories: practices, reviews, xp
 published: true
 ---
 
