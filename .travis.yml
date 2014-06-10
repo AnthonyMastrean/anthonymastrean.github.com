@@ -10,9 +10,7 @@ before_script:
   - git config --global user.email "anthony.mastrean@gmail.com"
   - bundle exec rake setup_github_pages[$REPO_URL]
 script:
-  - bundle exec rake generate
-after_script:
-  - bundle exec rake deploy
+  - bundle exec rake generate deploy
 env:
   global:
     - GH_REPO="AnthonyMastrean/anthonymastrean.github.com"
