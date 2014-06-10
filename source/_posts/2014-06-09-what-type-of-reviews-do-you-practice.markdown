@@ -4,7 +4,7 @@ title: "What Type of Reviews Do You Practice?"
 date: 2014-06-09 00:00
 comments: true
 categories: practices, database
-published: false
+published: true
 ---
 
 A professor of mine asked about the kinds of "reviews" that I have practiced in the industry. They cover a wide range of practices in the [verification & validation][1] classes. Times, practices, and industry has changed and so some of these are more popular and others are practically unheard of anymore.
