@@ -10,7 +10,6 @@ package { ["make", "curl", "git", "ruby"]:
 exec { "rvm":
   path => ["/usr/bin"],
   command => "curl -sSL https://get.rvm.io | bash -s stable",
-  unless => "which rvm",
   require => Package["curl"],
 }
 
@@ -32,4 +31,9 @@ exec { "rvm rubygems latest":
 exec { "gem install bundler":
   path => ["/usr/bin"],
   require => Exec["rvm rubygems latest"],
+}
+
+exec { "pushd /vagrant && bundle install && bundle exec rake generate":
+  path => ["/usr/bin"],
+  require => Exec["gem install bundler"],
 }
