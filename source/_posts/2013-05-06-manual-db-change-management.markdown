@@ -4,7 +4,7 @@ title: "Manual Database Change Management"
 date: 2013-05-06 14:33
 comments: true
 categories: practices, database
-published: false
+published: true
 ---
 
 If you don't have a database change management workflow and you aren't using any tools, you need _something_, right? Some guidance, a structure, a starting point. You should be using a tool and you'd probably like to. Something like [Roundhouse][1] or [Liquibase][2] or... nevermind*. Until then, you have to make progress. You need to know when the upstream database is changed. You do have a test environment, right? And you need to be able to make and publicize your own changes.
