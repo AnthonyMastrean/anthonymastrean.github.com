@@ -25,7 +25,7 @@ One of the teams I worked on was part of a rescue project. We rewrote the contro
 
 ## Team Review
 
-At most of my enteprise jobs, the only practice formally enforced was code review. There never was much informal review. Folks would occassionally ask for a "desk check" or the like. We often used separate repository browser tools (a popular one is [Crucible][3]) that support discussion over diffs, workflow (open, in-progress, completed), and integration with the issue tracker. In most of these places, the code was mediocre in quality and design. I don't know that code reviews were the cause. An after-coding review may point out consistency, formatting, or glaring syntactical issues, but it cannot usually improve design.
+At most of my enteprise jobs, the only practice formally enforced was [code review][^6]. There never was much informal review. Folks would occassionally ask for a "desk check" or the like. We often used separate repository browser tools (a popular one is [Crucible][3]) that support discussion over diffs, workflow (open, in-progress, completed), and integration with the issue tracker. In most of these places, the code was mediocre in quality and design. I don't know that code reviews were the cause. An after-coding review may point out consistency, formatting, or glaring syntactical issues, but it cannot usually improve design.
 
 ## Pull Request
 
@@ -36,4 +36,4 @@ In my open-source experience, we used [pull][5] [requests][4] from forks or bran
  [3]: https://www.atlassian.com/software/crucible/overview/feature-overview
  [4]: https://github.com/blog/712-pull-requests-2-0
  [5]: https://help.github.com/articles/using-pull-requests
- 
+ [^6]: http://arlobelshee.com/using-code-review-to-support-change/ ("Arlo Belshee just wrote about using code reviews to support change.")
