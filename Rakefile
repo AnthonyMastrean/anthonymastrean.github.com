@@ -366,6 +366,18 @@ task :setup_github_pages, :repo do |t, args|
   puts "\n---\n## Now you can deploy to the origin with `rake deploy` ##"
 end
 
+task :setup_travis, [:repo] do |t, args|
+  args.with_defaults(:repo => `git config --get remote.origin.url`.chomp)
+
+  FileUtils.rm_rf deploy_dir
+  FileUtils.mkdir deploy_dir
+  cd deploy_dir do
+    system "git init"
+    system "git remote add origin #{args.repo}"
+    system "git pull origin master"
+  end
+end
+
 def ok_failed(condition)
   if (condition)
     puts "OK"

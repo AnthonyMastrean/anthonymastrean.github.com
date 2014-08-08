@@ -8,9 +8,7 @@ before_script:
   - export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
   - git config --global user.name "Anthony Mastrean"
   - git config --global user.email "anthony.mastrean@gmail.com"
-  - bundle exec rake setup_github_pages[$REPO_URL]
-  - mkdir -p ./_deploy && cd ./_deploy
-  - git pull origin master
+  - bundle exec rake setup_travis[$REPO_URL]
 script:
   - bundle exec rake generate deploy
 env:
