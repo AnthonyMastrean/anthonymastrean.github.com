@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-_zero friction software development_
+_Simplify the complex. Eliminate leaky abstractions. Reduce code noise. Automate the mundane._
 
 ## Contact Info
 
