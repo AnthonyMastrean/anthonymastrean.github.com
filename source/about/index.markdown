@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "About Me"
+categories: 
 ---
 
 **Anthony Mastrean**  
