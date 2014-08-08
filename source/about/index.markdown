@@ -11,6 +11,7 @@ _Simplify the complex. Eliminate leaky abstractions. Reduce code noise. Automate
 
 ## Contact Info
 
+Anthony Mastrean
 360 Murray Ave  
 Bridgeville, PA 15017  
 United States  
