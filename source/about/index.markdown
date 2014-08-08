@@ -7,7 +7,6 @@ sharing: true
 footer: true
 ---
 
-**Anthony Mastrean**  
 _zero friction software development_
 
 ## Contact Info
