@@ -22,7 +22,7 @@ anthony.mastrean@gmail.com
 
 ## Sites
 
-Twitter: [http://twitter.com/anthonymastrean/]()  
-GitHub: [http://github.com/anthonymastrean/]()  
-StackOverflow: [http://stackoverflow.com/users/3619/]()  
-Resume: [http://careers.stackoverflow.com/anthonymastrean/]()  
+[Twitter](http://twitter.com/anthonymastrean/)  
+[GitHub](http://github.com/anthonymastrean/)  
+[StackOverflow](http://stackoverflow.com/users/3619/)  
+[Resume](http://careers.stackoverflow.com/anthonymastrean/)  
