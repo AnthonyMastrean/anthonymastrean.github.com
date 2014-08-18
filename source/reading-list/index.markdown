@@ -32,7 +32,7 @@ This list is inspired by Cory Schires's [reading list][1], as he learned about i
 
 **[Visual and Statistical Thinking](http://www.amazon.com/dp/0961392134)** Edward Tufte
 
-> _coming soon!_
+> Another chapter from Tufte's book, [Visual Explanations](http://www.amazon.com/dp/0961392126?tag=anthonymastre-20), and it's a great one. The concept that your graphics should be evidence, that they should make your scientific argument (x causes y) should not come as a surprise.
 
 **[Culture and Empire](http://www.amazon.com/dp/B00GF48Z4S?tag=anthonymastre-20)** Peter Hintjens
 
