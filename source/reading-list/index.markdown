@@ -34,9 +34,9 @@ This list is inspired by Cory Schires's [reading list][1], as he learned about i
 
 > _coming soon!_
 
-**[Culture and Empire](http://cultureandempire.com/)** Peter Hintjens
+**[Culture and Empire](http://www.amazon.com/dp/B00GF48Z4S?tag=anthonymastre-20)** Peter Hintjens
 
-> _coming soon!_
+> I started with Lessig's similar book, [Free Culture](http://www.amazon.com/dp/0143034650?tag=anthonymastre-20), but I found the writing so poor, I had to put it down. This book does wonders, though! It's almost sci-fi in its concepts (look at the table of contents), but also grounded in real technology and change.
 
 **[The Gervais Principle](http://www.amazon.com/dp/B00F9IV64W) & [Be Slightly Evil](http://www.amazon.com/dp/B00F8JTYH8)** Venkatesh Rao
 
