@@ -16,6 +16,10 @@ This list is inspired by Cory Schires's [reading list][1], as he learned about i
 
 ## In Progress
 
+**[Good to Great](http://www.amazon.com/dp/0066620996?tag=anthonymastre-20)** Jim Collins
+
+> _coming soon!_
+
 **[Godel, Escher, Bach](http://www.amazon.com/dp/0465026567)** Douglas Hofstadter
 
 > This book is a confusing mixture of mathematics, musical theory, and art... wrapped up in a fairy tale narrative! I got stuck about 70 pages in :) I think I'll ignore the complicated problems and read it quickly for the story... see if anything interesting happens.
