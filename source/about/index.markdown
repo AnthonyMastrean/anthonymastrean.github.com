@@ -6,4 +6,4 @@ sharing: true
 footer: true
 ---
 
-{% img /images/headshot.jpg %}
+{% img /images/headshot.jpg 'Headshot' 'Headshot' %}
