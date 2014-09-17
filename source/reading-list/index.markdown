@@ -12,9 +12,7 @@ This list is inspired by Cory Schires's [reading list][1], as he learned about i
  [1]: http://coryschires.com/maintaining-a-reading-list-on-github/
  [2]: http://www.amazon.com/dp/0596518382
 
-## Coming Up
-
-## In Progress
+## Reading Now
 
 **[Good to Great](http://www.amazon.com/dp/0066620996?tag=anthonymastre-20)** Jim Collins
 
@@ -24,7 +22,7 @@ This list is inspired by Cory Schires's [reading list][1], as he learned about i
 
 > This book is a confusing mixture of mathematics, musical theory, and art... wrapped up in a fairy tale narrative! I got stuck about 70 pages in :) I think I'll ignore the complicated problems and read it quickly for the story... see if anything interesting happens.
 
-## Books
+## Finished
 
 **[An Agile Adoption and Transformation Survival Guide](http://www.amazon.com/dp/1105735729?tag=anthonymastre-20)** Michael Sahota
 
