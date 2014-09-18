@@ -14,23 +14,19 @@ exec { "get rvm":
   require => Package["curl"],
 }
 
-exec { "source rvm":
-  command => "source ~/.rvm/scripts/rvm",
+exec { "gem install bundler":
+  command => "bash -c 'source /usr/local/rvm/scripts/rvm; gem install bundler'",
   require => Exec["get rvm"],
 }
 
-exec { "gem install bundler":
-  require => Exec["source rvm"],
-}
-
-exec { "pushd /vagrant":
-  command => "bash -c 'pushd /vagrant'",
-}
-
 exec { "bundle install":
-  require => Exec["gem install bundler", "pushd /vagrant"],
+  cwd => "/vagrant",
+  command => "bash -c 'source /usr/local/rvm/scripts/rvm; bundle install'",
+  require => Exec["gem install bundler"],
 }
 
-exec { "bundle exec rake generate preview":
+exec { "rake preview":
+  cwd => "/vagrant",
+  command => "bash -c 'source /usr/local/rvm/scripts/rvm; bundle exec rake generate'",
   require => Exec["bundle install"],
 }
