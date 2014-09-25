@@ -7,10 +7,7 @@ sharing: true
 footer: true
 ---
 
-This list is inspired by Cory Schires's [reading list][1], as he learned about it from the [Apprenticeship Patterns][2] book.
-
- [1]: http://coryschires.com/maintaining-a-reading-list-on-github/
- [2]: http://www.amazon.com/dp/0596518382
+Inspired by [Apprenticeship Patterns](http://www.amazon.com/dp/0596518382?tag=anthonymastre-20).
 
 ## Reading Now
 
