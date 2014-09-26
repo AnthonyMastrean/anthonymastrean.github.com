@@ -9,6 +9,8 @@ footer: true
 
 Tech talks, conference videos, and other presentations that you _must_ watch and rewatch every year!
 
+**[Boundaries](https://www.destroyallsoftware.com/talks/boundaries)** Gary Bernhardt
+
 **[8 Lines of Code](http://www.infoq.com/presentations/8-lines-code-refactoring)** Greg Young
 
 **[Maintaining Balance While Reducing Duplication](http://www.confreaks.com/videos/434-rubyconf2010-maintaining-balance-while-reducing-duplication) (& [Part II](https://www.youtube.com/watch?v=UvlyJv0eIf8))** David Chelimsky
