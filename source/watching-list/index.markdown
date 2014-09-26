@@ -9,6 +9,8 @@ footer: true
 
 Tech talks, conference videos, and other presentations that you _must_ watch and rewatch every year!
 
+**[8 Lines of Code](http://www.infoq.com/presentations/8-lines-code-refactoring)** Greg Young
+
 **[Maintaining Balance While Reducing Duplication](http://www.confreaks.com/videos/434-rubyconf2010-maintaining-balance-while-reducing-duplication) (& [Part II](https://www.youtube.com/watch?v=UvlyJv0eIf8))** David Chelimsky
 
 **[A Practical Approach to Large Scale Agile Development](https://www.youtube.com/watch?v=2QGYEwghRSM)** Gary Gruver
