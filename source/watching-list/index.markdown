@@ -9,6 +9,10 @@ footer: true
 
 Tech talks, conference videos, and other presentations that you _must_ watch and rewatch every year!
 
+**[Programming Style & Your Brain](https://www.youtube.com/watch?v=_EANG8ZZbRs)** Douglas Crockford
+
+**[The Future of Programming](https://www.youtube.com/watch?v=8pTEmbeENF4)** Bret Victor
+
 **[Boundaries](https://www.destroyallsoftware.com/talks/boundaries)** Gary Bernhardt
 
 **[8 Lines of Code](http://www.infoq.com/presentations/8-lines-code-refactoring)** Greg Young
