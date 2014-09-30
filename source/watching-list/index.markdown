@@ -9,6 +9,12 @@ footer: true
 
 Tech talks, conference videos, and other presentations that you _must_ watch and rewatch every year!
 
+**[From Hero to Zero](http://new.livestream.com/accounts/1466347/events/3044568/videos/52394934/player)** Jennifer Davis
+
+**[First In, Last Out](http://new.livestream.com/accounts/1466347/events/3044568/videos/52304739/player)** Kevin Behr
+
+**[There Is No Talent Shortage](https://www.youtube.com/watch?v=P_sWGl7MzhU)** Andrew Shafer
+
 **[Programming Style & Your Brain](https://www.youtube.com/watch?v=_EANG8ZZbRs)** Douglas Crockford
 
 **[The Future of Programming](https://www.youtube.com/watch?v=8pTEmbeENF4)** Bret Victor
