@@ -15,7 +15,7 @@ Tech talks, conference videos, and other presentations that you _must_ watch and
 
 **[There Is No Talent Shortage](https://www.youtube.com/watch?v=P_sWGl7MzhU)** Andrew Shafer
 
-**[Programming Style & Your Brain](https://www.youtube.com/watch?v=_EANG8ZZbRs)** Douglas Crockford
+**[Programming Style & Your Brain](https://www.youtube.com/watch?v=taaEzHI9xyY&index=8&list=PL7664379246A246CB)** Douglas Crockford
 
 **[The Future of Programming](https://www.youtube.com/watch?v=8pTEmbeENF4)** Bret Victor
 
