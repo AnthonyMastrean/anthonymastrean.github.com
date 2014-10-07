@@ -9,6 +9,8 @@ footer: true
 
 Tech talks, conference videos, and other presentations that you _must_ watch and rewatch every year!
 
+**[Programming With Nothing](http://rubymanor.org/3/videos/programming_with_nothing/)** Tom Stuart
+
 **[From Hero to Zero](http://new.livestream.com/accounts/1466347/events/3044568/videos/52394934/player)** Jennifer Davis
 
 **[First In, Last Out](http://new.livestream.com/accounts/1466347/events/3044568/videos/52304739/player)** Kevin Behr
