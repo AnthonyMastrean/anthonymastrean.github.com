@@ -11,9 +11,9 @@ Tech talks, conference videos, and other presentations that you _must_ watch and
 
 **[Programming With Nothing](http://rubymanor.org/3/videos/programming_with_nothing/)** Tom Stuart
 
-**[From Hero to Zero](http://new.livestream.com/accounts/1466347/events/3044568/videos/52394934/player)** Jennifer Davis
+**[From Hero to Zero](http://new.livestream.com/accounts/1466347/events/3044568/videos/52394934)** Jennifer Davis
 
-**[First In, Last Out](http://new.livestream.com/accounts/1466347/events/3044568/videos/52304739/player)** Kevin Behr
+**[First In, Last Out](http://vimeo.com/106800323)** Kevin Behr
 
 **[There Is No Talent Shortage](https://www.youtube.com/watch?v=P_sWGl7MzhU)** Andrew Shafer
 
