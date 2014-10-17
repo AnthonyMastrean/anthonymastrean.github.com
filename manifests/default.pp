@@ -3,10 +3,13 @@ Exec {
 }
 
 include rvm
-include rvm::bundler
+
+rvm::exec { "gem install bundler":
+}
 
 rvm::exec { "bundle install":
   cwd => "/vagrant",
+  require => Rvm::Exec["gem install bundler"],
 }
 
 rvm::exec { "bundle exec rake generate":
