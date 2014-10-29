@@ -11,10 +11,6 @@ Inspired by [Apprenticeship Patterns](http://www.amazon.com/dp/0596518382?tag=an
 
 ## Reading Now
 
-**[Good to Great](http://www.amazon.com/dp/0066620996?tag=anthonymastre-20)** Jim Collins
-
-> _coming soon!_
-
 **[Godel, Escher, Bach](http://www.amazon.com/dp/0465026567?tag=anthonymastre-20)** Douglas Hofstadter
 
 > This book is a confusing mixture of mathematics, musical theory, and art... wrapped up in a fairy tale narrative! I got stuck about 70 pages in :) I think I'll ignore the complicated problems and read it quickly for the story... see if anything interesting happens.
@@ -26,8 +22,13 @@ Inspired by [Apprenticeship Patterns](http://www.amazon.com/dp/0596518382?tag=an
 > _coming soon!_
 
 **[The Visible Ops Handbook](http://www.amazon.com/dp/0975568612?tag=anthonymastre-20)** Kevin Behr, Gene Kim, et al.
+**[Theory of Constraints](http://www.amazon.com/dp/0884271668?tag=anthonymastre-20)** Eli Goldratt
 
 > _coming soon!_
+
+**[Good to Great](http://www.amazon.com/dp/0066620996?tag=anthonymastre-20)** Jim Collins
+
+> At first, it seems like a lot of cheesy platitudes. But, the research feels really solid and starts to tell a compelling story. A team should really deliberate on how they're organized, how they get work done, and what they're doing to be significant.
 
 **[Visual and Statistical Thinking](http://www.amazon.com/dp/0961392134?tag=anthonymastre-20)** Edward Tufte
 
