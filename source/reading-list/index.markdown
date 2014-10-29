@@ -22,9 +22,13 @@ Inspired by [Apprenticeship Patterns](http://www.amazon.com/dp/0596518382?tag=an
 > _coming soon!_
 
 **[The Visible Ops Handbook](http://www.amazon.com/dp/0975568612?tag=anthonymastre-20)** Kevin Behr, Gene Kim, et al.
+
+> The "emergency room" guide to getting your crazy IT situation under control, stop fighting fires and getting important work done.
+
+**[The Phoenix Project](http://www.amazon.com/dp/0988262509?tag=anthonymastre-20)** Kevn Behr, Gene Kim, et al.
 **[Theory of Constraints](http://www.amazon.com/dp/0884271668?tag=anthonymastre-20)** Eli Goldratt
 
-> _coming soon!_
+> Be encouraged that you can change the way your organization works!
 
 **[Good to Great](http://www.amazon.com/dp/0066620996?tag=anthonymastre-20)** Jim Collins
 
