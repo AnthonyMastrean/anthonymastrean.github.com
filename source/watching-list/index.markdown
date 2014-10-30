@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-Tech talks, conference videos, and other presentations that you _must_ watch and rewatch every year!
+Tech-talks, conference videos, and other presentations that you should watch every year!
 
 **[Cultural Change is Free](http://vimeo.com/4670102)** John Seddon
 
