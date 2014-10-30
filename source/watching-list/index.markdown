@@ -9,6 +9,8 @@ footer: true
 
 Tech talks, conference videos, and other presentations that you _must_ watch and rewatch every year!
 
+**[Cultural Change is Free](http://vimeo.com/4670102)** John Seddon
+
 **[The IT Disconnect](https://sysadmincasts.com/episodes/15-the-it-disconnect)** Justin Weissig
 
 **[Programming With Nothing](http://rubymanor.org/3/videos/programming_with_nothing/)** Tom Stuart
