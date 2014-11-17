@@ -9,6 +9,10 @@ footer: true
 
 Tech-talks, conference videos, and other presentations that you should watch every year!
 
+**[What We Actually Know About Software Development](http://vimeo.com/9270320)** Greg Wilson
+
+**[The Social Coding Contract](http://vimeo.com/108589852)** Justin Searls
+
 **[Cultural Change is Free](http://vimeo.com/4670102)** John Seddon
 
 **[The IT Disconnect](https://sysadmincasts.com/episodes/15-the-it-disconnect)** Justin Weissig
