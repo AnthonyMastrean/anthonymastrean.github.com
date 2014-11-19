@@ -15,6 +15,8 @@ Inspired by [Apprenticeship Patterns](http://www.amazon.com/dp/0596518382?tag=an
 
 > A confusing mix of mathematics, musical theory, and art wrapped in a fairy tale!
 
+**[The Pragmatic Programmer](http://www.amazon.com/dp/0735619670?tag=anthonymastre-20)** Andrew Hunt & Dave Thomas
+
 ## Finished
 
 **[An Agile Adoption and Transformation Survival Guide](http://www.amazon.com/dp/1105735729?tag=anthonymastre-20)** Michael Sahota
