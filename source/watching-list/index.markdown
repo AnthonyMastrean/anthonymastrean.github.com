@@ -9,6 +9,8 @@ footer: true
 
 Tech-talks, conference videos, and other presentations that you should watch every year!
 
+**[Simple Made Easy](http://www.infoq.com/presentations/Simple-Made-Easy)** Rich Hickey
+
 **[Integrated Tests are a Scam](http://vimeo.com/80533536)** JB Rainsberger
 
 **[What We Actually Know About Software Development](http://vimeo.com/9270320)** Greg Wilson
