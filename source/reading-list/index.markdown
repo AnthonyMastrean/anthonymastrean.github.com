@@ -11,6 +11,8 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 
 ## Reading Now
 
+**[Measuring and Managing Performance in Organizations](http://www.amazon.com/dp/0932633366)** Robert Austin
+
 **[Godel, Escher, Bach](http://www.amazon.com/dp/0465026567)** Douglas Hofstadter
 
 > A confusing mix of mathematics, musical theory, and art wrapped in a fairy tale!
