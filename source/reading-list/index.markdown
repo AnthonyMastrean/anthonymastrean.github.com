@@ -19,6 +19,10 @@ Inspired by [Apprenticeship Patterns](http://www.amazon.com/dp/0596518382?tag=an
 
 ## Finished
 
+**[The Art of 'Ware](http://www.amazon.com/dp/1558513965?tag=anthonymastre-20)** Bruce Webster
+
+> A reinterpretation of Sun Tzu's maxims for software entrepreneurs or executives.
+
 **[An Agile Adoption and Transformation Survival Guide](http://www.amazon.com/dp/1105735729?tag=anthonymastre-20)** Michael Sahota
 
 > _coming soon!_
