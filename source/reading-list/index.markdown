@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Reading List"
-date: 2014-08-08 16:27
+date: 
 comments: true
 sharing: true
 footer: true
