@@ -96,7 +96,7 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 
 **[The Art of Agile Development](http://www.amazon.com/dp/0596527675)** James Shore
 
-> This is _the_ XP book for the modern developer, pay attention to the "contraindications" section for adivce when you're doing it wrong!
+> This is _the_ XP book for the modern developer, pay attention to the "contraindications" section for advice when you're doing it wrong!
 
 **[The Three Signs of a Miserable Job](http://www.amazon.com/dp/0787995312)** Patrick Lencioni
 
