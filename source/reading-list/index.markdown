@@ -15,9 +15,11 @@ Inspired by [Apprenticeship Patterns](http://www.amazon.com/dp/0596518382?tag=an
 
 > A confusing mix of mathematics, musical theory, and art wrapped in a fairy tale!
 
+## Finished
+
 **[The Pragmatic Programmer](http://www.amazon.com/dp/0735619670?tag=anthonymastre-20)** Andrew Hunt & Dave Thomas
 
-## Finished
+> An enormous amount of helpful, interrelated information, some feels a little dated and I probably should have read this 10 years ago.
 
 **[The Art of 'Ware](http://www.amazon.com/dp/1558513965?tag=anthonymastre-20)** Bruce Webster
 
