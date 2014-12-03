@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-Inspired by [Apprenticeship Patterns](http://www.amazon.com/dp/0596518382).
+Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.com/dp/0596518382) about keeping a reading list, reading the classics, and reading constantly.
 
 ## Reading Now
 
