@@ -25,6 +25,10 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 
 ## Finished
 
+**[The Decline and Fall of IBM](http://www.amazon.com/dp/B00KRHWZ22)** Robert Cringley
+
+> I love a good narrative history, especially of such a behemoth.
+
 **[The Pragmatic Programmer](http://www.amazon.com/dp/0735619670)** Andrew Hunt & Dave Thomas
 
 > An enormous survey of programming advice, patterns, and practices (feels a little dated). Read this 10 years ago.
