@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An Intro to Straight-Line Development"
+title: "Straight-Line Development"
 date: 2013-04-29 08:24
 comments: true
 categories: mercurial dvcs practices
