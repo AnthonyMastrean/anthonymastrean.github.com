@@ -12,7 +12,7 @@ I've finally kicked my [primitive obsession][ob]! I didn't even know I had one u
 void MoveTo(double position)
 ```
 
-What is position? What values of `double` are valid? Can it be negative, zero, not a number? Does it have a direction? Is it relative or absolute? Most importantly, what scale and system (English, metric, millimeters, microns)?! Not very informative, huh?
+What is position? What values of `double` are valid? Can it be negative, zero, not a number? Does it have a direction? Is it relative or absolute? Most importantly, what scale and system? Not very informative, huh?
 
 If `MoveTo` were an *absolute* move on a *micron* scale *linear* motor controller, I'd rather see this 
 
