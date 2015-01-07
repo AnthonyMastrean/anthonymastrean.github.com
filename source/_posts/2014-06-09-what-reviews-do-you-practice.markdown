@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Type of Reviews Do You Practice?"
+title: "What Reviews Do You Practice?"
 date: 2014-06-09 00:00
 comments: true
 categories: practices reviews xp
