@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Top 25 Most Dangerous Software Errors"
+title: "Dangerous Software Errors"
 date: 2011-07-09 00:00
 comments: true
 categories: errors practices principles
