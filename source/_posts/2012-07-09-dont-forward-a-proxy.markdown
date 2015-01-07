@@ -51,9 +51,6 @@ I think that some reflection like this would work. Get all interfaces on the tar
         additionalInterfaces, 
         new RecoveryInterceptor());
 
-// TODO: Show the built in method to get proxy target. 
-
-
 
  [bi]: http://simpleprogrammer.com/2010/11/02/back-to-basics-what-is-an-interface/
  [smap]: https://github.com/structuremap/structuremap
