@@ -11,6 +11,10 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 
 ## Reading Now
 
+**[Slack](http://www.amazon.com/dp/0932633617)** Tom DeMarco
+
+> Theory of Constraints, but for people and people managers.
+
 **[Measuring and Managing Performance in Organizations](http://www.amazon.com/dp/0932633366)** Robert Austin
 
 **[Godel, Escher, Bach](http://www.amazon.com/dp/0465026567)** Douglas Hofstadter
