@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Event Handling Styles in Event Sourcing"
+title: "Event Handling Styles"
 date: 2011-10-20 00:00
 comments: true
 categories: event-sourcing
 ---
 
-*This is the a reprint of an email thread I had with [Dennis Kozora][djk] many moons ago. I had to get it out of my head. Anymore, I recommend just using [CommonDomain][cd].*
+*This is a reproduction of an email exchange with [Dennis Kozora][djk].*
 
 ----
 
