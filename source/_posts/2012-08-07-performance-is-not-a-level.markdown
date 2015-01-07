@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Performance is not a Level, It's a logger!"
+title: "Performance is not a Level"
 date: 2011-05-25 00:00
 comments: true
 categories: log4net logging performance single-responsibility
