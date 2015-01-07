@@ -79,7 +79,9 @@ This allows you to parameterize the source control root, `$/my-project/%vcs.bran
 ## Conclusions
 It took a fair amount of practice to get this right. And Visual Studio/TFS don't really lead you down this path by default. There is a fair bit of MSBuild/csproj customization required to get some of these things right. Practice, reduce friction, and iterate.
 
-## NEW! Dump MSBuild for Rake!
+----
+
+## Use Rake!
 I've really taken to using the [Rake build system][rake] from the Ruby world. It's easy to get started. If you're in a .NET ecosystem, it helps to drop the entire [Ruby environment][ruby] into source control (get the archive instead of the installer). And create a `rakefile.rb` instead of an msbuild targets file.
 
     bin\
