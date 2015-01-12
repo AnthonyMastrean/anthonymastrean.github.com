@@ -9,8 +9,6 @@ footer: true
 
 Tech-talks, conference videos, and other presentations that you should watch every year!
 
-**[Escaping the Sludgy Swamp of Slow Tests](https://vimeo.com/16435789)** Joseph Wilk
-
 **[Antibodies of the Corporate Immune System](https://www.youtube.com/watch?v=IHMFDHyMsj4)** Michael Nygard
 
 **[Simple Made Easy](http://www.infoq.com/presentations/Simple-Made-Easy)** Rich Hickey
