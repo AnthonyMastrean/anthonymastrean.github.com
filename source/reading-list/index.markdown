@@ -25,6 +25,10 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 
 ## Finished
 
+**[Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)** Corey Haines
+
+> I'm inspired to run mini coderetreats at my company and among my colleagues!
+
 **[The Decline and Fall of IBM](http://www.amazon.com/dp/B00KRHWZ22)** Robert Cringley
 
 > I love a good narrative history, especially of such a behemoth.
