@@ -17,7 +17,7 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 
 **[Godel, Escher, Bach](http://www.amazon.com/dp/0465026567)** Douglas Hofstadter
 
-> A confusing mix of mathematics, musical theory, and art wrapped in a fairy tale!
+> A confounding mix of mathematics, musical theory, and philosophy wrapped in a fairy tale!
 
 ## Finished
 
