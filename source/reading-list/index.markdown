@@ -49,8 +49,7 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 
 > The "emergency room" guide to getting your crazy IT situation under control; stop fighting fires and get important work done.
 
-**[The Phoenix Project](http://www.amazon.com/dp/0988262509)** Kevn Behr, Gene Kim, et al.  
-**[Theory of Constraints](http://www.amazon.com/dp/0884271668)** Eli Goldratt
+**[Theory of Constraints](http://www.amazon.com/dp/0884271668)** Eli Goldratt & **[The Phoenix Project](http://www.amazon.com/dp/0988262509)** Kevn Behr, Gene Kim, et al.  
 
 > Encouragement that you can change the way your organization works!
 
