@@ -11,10 +11,6 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 
 ## Reading Now
 
-**[Slack](http://www.amazon.com/dp/0932633617)** Tom DeMarco
-
-> Theory of Constraints, but for people and people managers.
-
 **[Measuring and Managing Performance in Organizations](http://www.amazon.com/dp/0932633366)** Robert Austin
 
 > Finally, an evidence-based look at performance measurement and incentives.
@@ -24,6 +20,10 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 > A confusing mix of mathematics, musical theory, and art wrapped in a fairy tale!
 
 ## Finished
+
+**[Slack](http://www.amazon.com/dp/0932633617)** Tom DeMarco
+
+> Theory of Constraints for people and people managers.
 
 **[Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)** Corey Haines
 
