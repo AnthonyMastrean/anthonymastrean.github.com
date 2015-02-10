@@ -69,9 +69,9 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 
 > Computation, state machines, Turing machines, and parsing disguised in simple Ruby programs, for the non computer scientist!
 
-**[Making Software](http://www.amazon.com/dp/0596808321)** Andy Oram
+**[Making Software](http://www.amazon.com/dp/0596808321)** Andy Oram & Greg Wilson
 
-> Reexamine the important software development research (with a focus on experiment design & concordance): pair programming, team composition, defect to metric tracking.
+> Reexamine important software development research, with a focus on experiment design & concordance.
 
 **[Windows PowerShell in Action](http://www.amazon.com/dp/1932394907)** Bruce Payette
 
