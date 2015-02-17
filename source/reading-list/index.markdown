@@ -15,15 +15,15 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 
 > Revealing the fallacies of OO development and management.
 
-**[Measuring and Managing Performance in Organizations](http://www.amazon.com/dp/0932633366)** Robert Austin
-
-> Finally, an evidence-based look at performance measurement and incentives.
-
 **[Godel, Escher, Bach](http://www.amazon.com/dp/0465026567)** Douglas Hofstadter
 
 > A confounding mix of mathematics, musical theory, and philosophy wrapped in a fairy tale!
 
 ## Finished
+
+**[Measuring and Managing Performance in Organizations](http://www.amazon.com/dp/0932633366)** Robert Austin
+
+> Finally, an evidence-based look at performance measurement and incentives.
 
 **[Slack](http://www.amazon.com/dp/0932633617)** Tom DeMarco
 
