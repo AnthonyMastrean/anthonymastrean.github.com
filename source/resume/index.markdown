@@ -4,6 +4,6 @@ title: "Resume"
 comments: true
 sharing: true
 footer: true
-redirects:
-- https://careers.stackoverflow.com/anthonymastrean
+redirect_to:
+  - https://careers.stackoverflow.com/anthonymastrean/
 ---

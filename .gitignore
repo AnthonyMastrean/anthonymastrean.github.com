@@ -1,11 +1,6 @@
-.bundle
-.DS_Store
 .sass-cache
 .gist-cache
 .pygments-cache
-.vagrant
-*.sublime-project
-*.sublime-workspace
 _deploy
 public
 sass.old
