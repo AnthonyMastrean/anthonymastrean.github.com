@@ -15,7 +15,7 @@ $ vagrant ssh --command 'pushd /vagrant && bundle exec rake generate preview'
 To [update](http://octopress.org/docs/updating/) Octopress
 
 ```
-$ git pull octopress master
+$ git pull --no-rebase octopress master
 $ vagrant up
 $ vagrant ssh --command 'pushd /vagrant && bundle exec rake update'
 ```
