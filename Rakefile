@@ -299,6 +299,20 @@ task :set_root_dir, :dir do |t, args|
   end
 end
 
+desc "Set up a Travis-CI build & deploy"
+task :setup_travis, [:repo] do |t, args|
+  args.with_defaults(:repo => `git config --get remote.origin.url`.chomp)
+
+  FileUtils.rm_rf deploy_dir
+  FileUtils.mkdir deploy_dir
+  cd deploy_dir do
+    system "git init"
+    system "git remote add origin #{args.repo}"
+    system "git pull origin master"
+  end
+  puts "\n---\n## Now you can deploy to #{repo_url} with `rake deploy` ##"
+end
+
 desc "Set up _deploy folder and deploy branch for Github Pages deployment"
 task :setup_github_pages, :repo do |t, args|
   if args.repo
