@@ -3,7 +3,7 @@
 
 ## Local Development
 
-The provided Vagrant machine will have all the Ruby development dependencies installed and the site generated. You just have to start the preview and browse to the forwarded address: `localhost:4000`.
+The provided Vagrant machine will have all of the development dependencies installed. You just have to generate, start the preview engine, and browse to the forwarded address: [http://localhost:4000/](http://localhost:4000/).
 
 ```
 $ vagrant up
@@ -15,7 +15,12 @@ $ vagrant ssh --command 'pushd /vagrant && bundle exec rake generate preview'
 To [update](http://octopress.org/docs/updating/) Octopress
 
 ```
-$ git pull octopress master
+$ git pull --no-rebase octopress master
 $ vagrant up
 $ vagrant ssh --command 'pushd /vagrant && bundle exec rake update'
 ```
+
+## Deploying
+
+The Vagrant machine is not setup with git or SSH keys or personal tokens. You can generate & preview the site and must commit for the Travis-CI build to complete the push.
+
