@@ -310,7 +310,7 @@ task :setup_travis, [:repo] do |t, args|
     system "git remote add origin #{args.repo}"
     system "git pull origin master"
   end
-  puts "\n---\n## Now you can deploy to #{repo_url} with `rake deploy` ##"
+  puts "\n---\n## Now you can deploy to #{args.repo} with `rake deploy` ##"
 end
 
 desc "Set up _deploy folder and deploy branch for Github Pages deployment"
