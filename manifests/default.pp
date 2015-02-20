@@ -4,9 +4,10 @@ Exec {
 }
 
 Exec['apt-get update'] -> Package <| |>
-Package <| provider != gem |> -> Package['bundler']
 
 exec { 'apt-get update': }
+
+Package <| provider != gem |> -> Package['bundler']
 
 package { 'ruby':
   ensure => purged,
@@ -14,6 +15,7 @@ package { 'ruby':
 
 package { [
   'build-essential',
+  'git',
   'ruby1.9.1',
   'ruby1.9.1-dev',
   'rubygems1.9.1',
@@ -22,15 +24,15 @@ package { [
   require => Package['ruby'],
 }
 
-file { '/etc/gemrc':
-  ensure  => present,
-  content => 'gem: --no-ri --no-rdoc'
-}
-
 package { 'bundler':
   ensure   => latest,
   provider => gem,
   require  => File['/etc/gemrc'],
+}
+
+file { '/etc/gemrc':
+  ensure  => present,
+  content => 'gem: --no-ri --no-rdoc'
 }
 
 exec { 'bundle install':
