@@ -177,12 +177,12 @@ task :update_style, :theme do |t, args|
   theme = args.theme || 'classic'
   if File.directory?("sass.old")
     puts "removed existing sass.old directory"
-    rm_r "sass.old", :secure=>true
+    rm_rf "sass.old"
   end
   mv "sass", "sass.old"
   puts "## Moved styles into sass.old/"
-  cp_r "#{themes_dir}/"+theme+"/sass/", "sass", :remove_destination=>true
-  cp_r "sass.old/custom/.", "sass/custom/", :remove_destination=>true
+  cp_r "#{themes_dir}/"+theme+"/sass/", "sass"
+  cp_r "sass.old/custom/.", "sass/custom/"
   puts "## Updated Sass ##"
 end
 
@@ -191,13 +191,13 @@ task :update_source, :theme do |t, args|
   theme = args.theme || 'classic'
   if File.directory?("#{source_dir}.old")
     puts "## Removed existing #{source_dir}.old directory"
-    rm_r "#{source_dir}.old", :secure=>true
+    rm_rf "#{source_dir}.old"
   end
   mkdir "#{source_dir}.old"
   cp_r "#{source_dir}/.", "#{source_dir}.old"
   puts "## Copied #{source_dir} into #{source_dir}.old/"
-  cp_r "#{themes_dir}/"+theme+"/source/.", source_dir, :remove_destination=>true
-  cp_r "#{source_dir}.old/_includes/custom/.", "#{source_dir}/_includes/custom/", :remove_destination=>true
+  cp_r "#{themes_dir}/"+theme+"/source/.", source_dir
+  cp_r "#{source_dir}.old/_includes/custom/.", "#{source_dir}/_includes/custom/"
   cp "#{source_dir}.old/favicon.png", source_dir
   mv "#{source_dir}/index.html", "#{blog_index_dir}", :force=>true if blog_index_dir != source_dir
   cp "#{source_dir}.old/index.html", source_dir if blog_index_dir != source_dir && File.exists?("#{source_dir}.old/index.html")
