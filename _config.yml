@@ -34,6 +34,7 @@ plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
 markdown: rdiscount
+redirects: yes
 rdiscount:
   extensions:
     - autolink
@@ -57,9 +58,6 @@ default_asides: [asides/recent_posts.html, custom/asides/pages.html, custom/asid
 # blog_index_asides:
 # post_asides:
 # page_asides:
-
-gems:
-  - jekyll-redirect-from
 
 # ----------------------- #
 #   3rd Party Settings    #

@@ -7,5 +7,15 @@ The provided Vagrant machine will have all the Ruby development dependencies ins
 
 ```
 $ vagrant up
-$ vagrant ssh --command 'pushd /vagrant && bundle exec rake preview'
+$ vagrant ssh --command 'pushd /vagrant && bundle exec rake generate preview'
+```
+
+## Updating
+
+To [update](http://octopress.org/docs/updating/) Octopress
+
+```
+$ git pull octopress master
+$ vagrant up
+$ vagrant ssh --command 'pushd /vagrant && bundle exec rake update'
 ```
