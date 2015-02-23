@@ -9,6 +9,8 @@ footer: true
 
 Tech-talks, conference videos, and other presentations that you should watch every year!
 
+**[Read Bead Experiment (esp. part 6)](https://www.youtube.com/watch?v=HBW1_GhRKTA&list=PL8E522DD542C4CA69&index=1)** Deming
+
 **[CQRS Class](http://www.viddler.com/v/dc528842)** Greg Young
 
 **[Antibodies of the Corporate Immune System](https://www.youtube.com/watch?v=IHMFDHyMsj4#t=0)** Michael Nygard
