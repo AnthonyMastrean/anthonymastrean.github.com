@@ -11,6 +11,10 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 
 ## Reading Now
 
+**[The Leprechauns of Software Engineering](https://leanpub.com/leprechauns)** Laurent Bossavit
+
+> More of what this industry needs... Evidence!
+
 **[Pitfalls of Object-Oriented Development](http://www.amazon.com/dp/1558513973)** Bruce Webster
 
 > Revealing the fallacies of OO development and management.
