@@ -36,7 +36,7 @@ Another company challenged me to answer questions about their specific configura
 
 Half of the companies declined by either never calling or boilerplate HR messages. The other half were more descriptive, but it boiled down to a conflict of team or cultural fit.
 
-https://twitter.com/mhsutton/status/466679517009182721
+{% tweet https://twitter.com/mhsutton/status/466679517009182721 %}
 
 I ended up interviewing one last time. This company had an open configuration management position. I hadn't strictly done that before, but it was an area of interest (can you say "devops"?). They saw it as a gateway for organizational change. My direct manager, the director, and the vice president of the department were all past colleagues.
 
