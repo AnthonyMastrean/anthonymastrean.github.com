@@ -2,9 +2,8 @@
 layout: post
 title: "On Unemployment & Interviewing"
 date: 2014-01-01 00:00
-comments: true
 categories: culture interviewing
-published: false
+published: true
 ---
 
 I left a great team at a startup in digital pathology last year. I was there for a few years, changed roles a couple of times, and saw the product and team really grow. I left when the regulatory situation became unbearable (that's the topic of another post, entirely).
