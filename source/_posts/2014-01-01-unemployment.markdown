@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On Unemployment &amp; Interviewing"
+title: "Unemployment &amp; Interviews"
 date: 2014-01-01 00:00
 comments: false
 categories: culture interviewing
