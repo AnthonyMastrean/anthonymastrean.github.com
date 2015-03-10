@@ -36,7 +36,7 @@ I didn't complete much coding. So, I tried to engage them on the concepts of MVC
 
 Another company challenged me to answer questions about their specific configuration and deployment of Windows storage servers, without having heard or seen anything about it. I floundered, sounded like a dummy, and, when finally provided context, did not have time to explain what I thought. Another bogus challenge failed.
 
-Half of the companies declined by either never calling or boilerplate HR messages. The other half were more descriptive, but it boiled down to a conflict of team or cultural fit.
+Most declined with canned HR messages or by never calling back. The rest were more descriptive, but it boiled down to a conflict of cultural fit.
 
 {% blockquote @mhsutton https://twitter.com/mhsutton/status/466679517009182721 %}
 Most companies hire as 'come and do what you've always done with us'. Very few are 'come and imagine and help build awesome with us'. #sad.
