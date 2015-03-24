@@ -9,18 +9,6 @@ footer: true
 
 Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.com/dp/0596518382) about keeping a reading list, reading the classics, and reading constantly.
 
-## Reading
-
-**[Pitfalls of Object-Oriented Development](http://www.amazon.com/dp/1558513973)** Bruce Webster
-
-> Revealing the fallacies of OO development and management.
-
-**[Godel, Escher, Bach](http://www.amazon.com/dp/0465026567)** Douglas Hofstadter
-
-> A confounding mix of mathematics, musical theory, and philosophy wrapped in a fairy tale!
-
-## Read
-
 **[The Leprechauns of Software Engineering](https://leanpub.com/leprechauns)** Laurent Bossavit
 
 > More of what this industry needs... Evidence!
@@ -168,3 +156,15 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 **[The Design of Everyday Things](http://www.amazon.com/dp/0465067107)** Donald Norman
 
 > You'll never unsee frustrating design.
+
+## Reading
+
+**[Pitfalls of Object-Oriented Development](http://www.amazon.com/dp/1558513973)** Bruce Webster
+
+> Revealing the fallacies of OO development and management.
+
+**[Godel, Escher, Bach](http://www.amazon.com/dp/0465026567)** Douglas Hofstadter
+
+> A confounding mix of mathematics, musical theory, and philosophy wrapped in a fairy tale!
+
+## Queued
