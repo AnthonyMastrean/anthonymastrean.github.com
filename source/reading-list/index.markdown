@@ -9,11 +9,7 @@ footer: true
 
 Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.com/dp/0596518382) about keeping a reading list, reading the classics, and reading constantly.
 
-## Reading Now
-
-**[The Leprechauns of Software Engineering](https://leanpub.com/leprechauns)** Laurent Bossavit
-
-> More of what this industry needs... Evidence!
+## Reading
 
 **[Pitfalls of Object-Oriented Development](http://www.amazon.com/dp/1558513973)** Bruce Webster
 
@@ -23,7 +19,11 @@ Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.c
 
 > A confounding mix of mathematics, musical theory, and philosophy wrapped in a fairy tale!
 
-## Finished
+## Read
+
+**[The Leprechauns of Software Engineering](https://leanpub.com/leprechauns)** Laurent Bossavit
+
+> More of what this industry needs... Evidence!
 
 **[Measuring and Managing Performance in Organizations](http://www.amazon.com/dp/0932633366)** Robert Austin
 
