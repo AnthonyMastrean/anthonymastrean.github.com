@@ -9,6 +9,8 @@ footer: true
 
 Tech-talks, conference videos, and other presentations that you should watch every year!
 
+**[A History of Build Tools](https://www.parleys.com/tutorial/the-road-sbt-1-0-paved-server)** Josh Suereth
+
 **[Understanding Latency - Coordinated Omission](https://www.youtube.com/watch?v=9MKY4KypBzg&list=WL&t=2576)** Gil Tene
 
 **[Read Bead Experiment (esp. part 6)](https://www.youtube.com/watch?v=HBW1_GhRKTA&list=PL8E522DD542C4CA69&index=1)** Deming
