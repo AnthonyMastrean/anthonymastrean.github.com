@@ -9,6 +9,8 @@ footer: true
 
 Tech-talks, conference videos, and other presentations that you should watch every year!
 
+**[A Culture of Innovation](https://www.youtube.com/watch?v=o3e1lnixKBM)** Patty McCord
+
 **[It Is Possible to Do Object-Oriented Programming in Java](https://vimeo.com/56748054)** Kevlin Henney
 
 **[A History of Build Tools](https://www.parleys.com/tutorial/the-road-sbt-1-0-paved-server)** Josh Suereth
