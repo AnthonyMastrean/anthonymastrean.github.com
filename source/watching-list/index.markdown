@@ -9,6 +9,8 @@ footer: true
 
 Tech-talks, conference videos, and other presentations that you should watch every year!
 
+**[It Is Possible to Do Object-Oriented Programming in Java](https://vimeo.com/56748054)** Kevlin Henney
+
 **[A History of Build Tools](https://www.parleys.com/tutorial/the-road-sbt-1-0-paved-server)** Josh Suereth
 
 **[Understanding Latency - Coordinated Omission](https://www.youtube.com/watch?v=9MKY4KypBzg&list=WL&t=2576)** Gil Tene
