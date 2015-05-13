@@ -34,6 +34,10 @@ I never started a project with that framework from scratch, never bootstrapped t
 
 I didn't complete much coding. So, I tried to engage them on the concepts of MVC and the implementation and philosophy of the relevant patterns, but they weren't having it. I apparently failed that interview, greatly influenced by the outcome of that bogus challenge. I heard later that they changed the challenge part of the interview... oh, well!
 
+{% blockquote @polotek https://twitter.com/polotek/status/575368200214421504 %}
+Most dev interviews are like a long ass secret handshake to make sure you belong in the club. It's ritual as much as it is evaluation.
+{% endblockquote %}
+
 Another company challenged me to answer questions about their specific configuration and deployment of Windows storage servers, without having heard or seen anything about it. I floundered, sounded like a dummy, and, when finally provided context, did not have time to explain what I thought. Another bogus challenge failed.
 
 Most declined with canned HR messages or by never calling back. The rest were more descriptive, but it boiled down to a conflict of cultural fit.
