@@ -30,3 +30,9 @@ So, here's what we do to enable and encourage collective meeting ownership (some
  * Allow the participants to use as many features as possible: chat, video, notes, file transfer, etc.
  
  * Be sure to record the meeting and provide a streaming and download link, a transcript (or minutes, etc.), and any relevant notes on a wiki and as a reply to the meeting invite, so that all the participants have access.
+
+If you must require a code to dial in to the audio line, most phones should support commas (soft-pause, around 2 secs) and semi-colons (hard-pause, requires you to tap a button) between the conference number and the code. For example:
+
+```
+1-800-123-4567,1234567#
+```
