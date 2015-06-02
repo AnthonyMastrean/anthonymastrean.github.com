@@ -15,7 +15,7 @@ I've been scheduling them, hosting the audio conference, starting the screen sha
 
 Most enterprise email/calendering systems don't make this easy because you can't transfer ownership of a meeting or assign multiple owners. I'm looking at you, Outlook. So, I quit using recurring meetings. A recurrence makes it "mine" instead of "ours". I developed a nice template that anyone can copy, edit, and deploy for their instance of a lightning talk.
 
-I also want anyone to be able to start an audio conference, which also strongly enforces the idea of a single owner. Your conference won't start without the host. All the participants can be on the line, unable to chat, listening to muzak. Ugh. Not to mention, we have to "order" a conference line from our Corporate IT catalog! Virtual meeting rooms and screen sharing tools (like WebEx) have the same strong idea of single ownership. The host starts and controls the meeting. Without the host, you have no meeting, no sharing, no chat, no video, no recording.
+Your audio conference line won't start without the host. All the participants can be on the line, unable to chat, listening to _muzak_. Ugh. Not to mention, we have to "order" a conference line from our Corporate IT catalog! Virtual meeting rooms and screen sharing tools (like WebEx) have the same strong idea of single ownership. The host starts and controls the meeting. Without the host, you have no meeting, no sharing, no chat, no video, no recording.
 
 So, here's what we do to enable and encourage collective meeting ownership (some of these are specific to our tools, but you'll get it):
 
@@ -31,8 +31,18 @@ So, here's what we do to enable and encourage collective meeting ownership (some
  
  * Be sure to record the meeting and provide a streaming and download link, a transcript (or minutes, etc.), and any relevant notes on a wiki and as a reply to the meeting invite, so that all the participants have access.
 
+## Mobile
+
 If you must require a code to dial in to the audio line, most phones should support commas (soft-pause, around 2 secs) and semi-colons (hard-pause, requires you to tap a button) between the conference number and the code. For example:
 
 ```
 1-800-123-4567,1234567#
 ```
+
+## Recordings
+
+You should provide the link to the downloadable recording, because who wants to stream the recording when WebEx's plugin asks for these permissions?
+
+{% img /images/meetings/webex.png %}
+
+If you're awesome, you'll convert the recordings to a normal format using their [recording editor](https://chocolatey.org/packages/webexeditor).
