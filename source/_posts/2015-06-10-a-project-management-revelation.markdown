@@ -23,7 +23,7 @@ The statuses were like:
 
 And the presentation of these releases and status often looked like this, let's say that 1.0 is the current released version, 2.0 and 2.1 are in various stages of development or testing, and 3.0 is in planning.
 
-{% codeblock linenos:false %}
+{% codeblock lang:plain linenos:false %}
 | 1.0 | 2.0 | 2.1 | 3.0 |
 |-----|-----|-----|-----|
 | `-` | `~` | `~` | `+` |
@@ -33,7 +33,7 @@ Of course, we're "trying hard" to meet that deadline or to get that feature in. 
 
 It's not really clear sometimes. Let's skip ahead and look at the reported progress as old releases rolled out and new ones popped in.
 
-{% codeblock linenos:false %}
+{% codeblock lang:plain linenos:false %}
 | 2.0 | 2.1 | 3.0 | 4.0 |
 |-----|-----|-----|-----|
 | `-` | `~` | `~` | `+` |
@@ -47,7 +47,7 @@ That's actually a kind of nefarious statement. If you understand that "working o
 
 You'll see, over time, that the statuses are fixed. They'll always appear in that state in that order. The releases simply roll over them, like a wave.
 
-{% codeblock linenos:false %}
+{% codeblock lang:plain linenos:false %}
 | 1.0 | 2.0 | 2.1 | 3.0 | 4.0 | 4.1 |
 |-----|-----|-----|-----|-----|-----|
 | `-` | `~` | `~` | `+` |     |     |
