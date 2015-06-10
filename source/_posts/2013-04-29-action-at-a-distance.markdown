@@ -11,4 +11,6 @@ I told them not to touch that code without doing some analysis... what could it 
 
 {% img /images/action/power.png %}
 
-https://en.wikipedia.org/wiki/Action_at_a_distance_(computer_programming)
+----
+
+See more at [Wikipedia](https://en.wikipedia.org/wiki/Action_at_a_distance_(computer_programming))
