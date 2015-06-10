@@ -34,3 +34,7 @@ The guest network doesn't have permission to access the dashboard without a fire
 :'(
 
 So, now we have a $1000 black rectangle hanging on the wall. I'll let you know what ends up working.
+
+## Caveats
+
+ 1. The corporate network requires domain authentication and/or some kind of device registration that requires meeting some arcane security measures.
