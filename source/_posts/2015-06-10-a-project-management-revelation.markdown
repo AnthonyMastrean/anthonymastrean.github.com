@@ -26,7 +26,7 @@ And the presentation of these releases and status often looked like this, let's 
 ```
 | 1.0 | 2.0 | 2.1 | 3.0 |
 |-----|-----|-----|-----|
-| `-` | `~` | `~` | `+` |
+|  -  |  ~  |  ~  |  +  |
 ```
 
 Of course, we're "trying hard" to meet that deadline or to get that feature in. But, are we really changing? Are we reorganizing the teams around the most important goals? Are we communicating hard messages to customers about that future service pack so that we can meet the 1.0 goals?
@@ -36,7 +36,7 @@ It's not really clear sometimes. Let's skip ahead and look at the reported progr
 ```
 | 2.0 | 2.1 | 3.0 | 4.0 |
 |-----|-----|-----|-----|
-| `-` | `~` | `~` | `+` |
+|  -  |  ~  |  ~  |  +  |
 ```
 
 Wait, a minute... 2.0 isn't improving and 2.1 is still in trouble. But, look, 4.0 is doing great! The key understanding was a quote(ish) from the project manager...
@@ -50,9 +50,9 @@ You'll see, over time, that the statuses are fixed. They'll always appear in tha
 ```
 | 1.0 | 2.0 | 2.1 | 3.0 | 4.0 | 4.1 |
 |-----|-----|-----|-----|-----|-----|
-| `-` | `~` | `~` | `+` |     |     |
-|     | `-` | `~` | `~` | `+` |     |
-|     |     | `-` | `~` | `~` | `+` |
+|  -  |  ~  |  ~  |  +  |     |     |
+|     |  -  |  ~  |  ~  |  +  |     |
+|     |     |  -  |  ~  |  ~  |  +  |
 ```
 
 I believe that the feedback loops between the teams are broken. The organization is not collaborating across the teams towards a shared goal. There is no real change, so the statuses will never change.
