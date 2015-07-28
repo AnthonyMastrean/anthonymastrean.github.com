@@ -9,6 +9,10 @@ footer: true
 
 Inspired by the recommendations in [Apprenticeship Patterns](http://www.amazon.com/dp/0596518382) about keeping a reading list, reading the classics, and reading constantly.
 
+**[Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/dp/0201633612)** Erich Gamma, et al.
+
+> The exposition before and after each pattern category are worth more than the patterns themselves.
+
 **[The Leprechauns of Software Engineering](https://leanpub.com/leprechauns)** Laurent Bossavit
 
 > More of what this industry needs... Evidence!
