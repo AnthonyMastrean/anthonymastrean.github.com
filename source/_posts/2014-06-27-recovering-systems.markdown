@@ -95,7 +95,7 @@ We would stop the service, extract the backed up filesystem, and restart the ser
 
 ```
 $ service ldap stop
-$ tar --extract --file=ldap.tar.gz /var/lib/ldap
+$ tar --extract --file ldap.tar.gz /var/lib/ldap
 $ service ldap start
 ```
 
