@@ -57,4 +57,4 @@ Tech-talks, conference videos, and other presentations that you should watch eve
 
 **[A Practical Approach to Large Scale Agile Development](https://www.youtube.com/watch?v=2QGYEwghRSM)** Gary Gruver
 
-**[Real Software Engineering](https://www.youtube.com/watch?v=NP9AIUT9nos)** Glenn Vanderburg
+**[Real Software Engineering](https://www.youtube.com/watch?v=NP9AIUT9nos)** ([latest edition!](https://www.youtube.com/watch?v=Tg9D7UE4TyI)) Glenn Vanderburg
