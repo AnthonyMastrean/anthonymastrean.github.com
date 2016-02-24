@@ -21,7 +21,7 @@ Tech-talks, conference videos, and other presentations that you should watch eve
 
 **[Read Bead Experiment (esp. part 6)](https://www.youtube.com/watch?v=HBW1_GhRKTA&list=PL8E522DD542C4CA69&index=1)** W. Edwards Deming
 
-**[CQRS Class](http://www.viddler.com/v/dc528842)** Greg Young
+**[CQRS Class](https://www.youtube.com/watch?v=whCk1Q87_ZI)** Greg Young
 
 **[Antibodies of the Corporate Immune System](https://www.youtube.com/watch?v=IHMFDHyMsj4#t=0)** Michael Nygard
 
