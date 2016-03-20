@@ -18,7 +18,7 @@ For weeks, the project management team had been presenting the general status of
 The statuses were like: 
 
  * Bad, we're going to miss a deadline or slip a feature. (`-`)
- * In trouble, we're trending downards. (`~`)
+ * In trouble, we're trending downwards. (`~`)
  * Good! Everything's on track. (`+`)
 
 And the presentation of these releases and status often looked like this, let's say that 1.0 is the current released version, 2.0 and 2.1 are in various stages of development or testing, and 3.0 is in planning.
