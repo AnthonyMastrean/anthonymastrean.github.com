@@ -7,11 +7,7 @@ categories: project-management culture
 published: true
 ---
 
-A short description of this post might be...
-
-> "The revelation of the developer Paul: the things which were revealed to him when he attended the status meetings and heard unspeakable words."
-
-The developer in this story had been attending status meetings. These were good meetings, they were early attempts at transparency and cross-functional communication. They were snappy and there was always time for questions.
+The developer in this story had been attending status meetings. These were good meetings, they were attempts at transparency and cross-functional communication. They were snappy and there was always time for questions.
 
 For weeks, the project management team had been presenting the general status of the many releases that were in various stages of the software development lifecycle. Yes, there were released versions in support, receiving patches and hotfixes, versions in active development, and versions being planned and experimented on for future release.
 
@@ -29,9 +25,9 @@ And the presentation of these releases and status often looked like this, let's 
 |  -  |  ~  |  ~  |  +  |
 ```
 
-Of course, we're "trying hard" to meet that deadline or to get that feature in. But, are we really changing? Are we reorganizing the teams around the most important goals? Are we communicating hard messages to customers about that future service pack so that we can meet the 1.0 goals?
+Of course, we're "trying hard" to meet that deadline or to get that feature in. But, are we reorganizing the teams around the most important goals? Are we communicating hard messages to customers about that future service pack so that we can meet the 1.0 goals? It's not really clear sometimes.
 
-It's not really clear sometimes. Let's skip ahead and look at the reported progress as old releases rolled out and new ones popped in.
+Let's skip ahead and look at the reported progress as old releases rolled out and new ones popped in.
 
 ```
 | 2.0 | 2.1 | 3.0 | 4.0 |
@@ -39,13 +35,11 @@ It's not really clear sometimes. Let's skip ahead and look at the reported progr
 |  -  |  ~  |  ~  |  +  |
 ```
 
-Wait, a minute... 2.0 isn't improving and 2.1 is still in trouble. But, look, 4.0 is doing great! The key understanding was a quote(ish) from the project manager...
+Wait, a minute... 2.0 isn't improving and 2.1 is still in trouble. But, look, 4.0 is doing great! The key understanding was a quote(ish) from a project manager...
 
 > Of course, 4.0 is looking good because we haven't started working on it yet! *(chuckles)*
 
-That's actually a kind of nefarious statement. If you understand that "working on it" means "starting the development phase". The problems start when the damn developers get their hands on the perfect requirements.
-
-You'll see, over time, that the statuses are fixed. They'll always appear in that state in that order. The releases simply roll over them, like a wave.
+If you understand that "working on it" means "starting the development phase". The problems start when the damn developers get their hands on the perfect requirements. You'll see, over time, that the statuses are fixed. They'll always appear in that state in that order. The releases simply roll over them, like a wave.
 
 ```
 | 1.0 | 2.0 | 2.1 | 3.0 | 4.0 | 4.1 |
