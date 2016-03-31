@@ -9,6 +9,9 @@ footer: true
 
 Tech-talks, conference videos, and other presentations that you should watch every year!
 
+**[Individuals & Interaction Over Processes and Tools](https://vimeo.com/14229762)** Kevlin Henney
+
+> Pay attention @ 47:30; Kevlin talks about an estimate becoming a target becoming a commitment, all under the "umbrella" of an estimate.
 
 **[Why Greatness Cannot Be Planned](https://www.youtube.com/watch?v=dXQPL9GooyI)** Kenneth Stanley
 
