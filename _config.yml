@@ -25,7 +25,6 @@ github_username: anthonymastrean
 # Build settings
 markdown: kramdown
 theme: minima
-exclude: ['vendor']
 
 # Plugins
 gems: ['jekyll-paginate']
