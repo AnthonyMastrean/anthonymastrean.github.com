@@ -1,26 +1,55 @@
 # anthonymastrean.com
+
 [![Build Status](https://img.shields.io/travis/AnthonyMastrean/anthonymastrean.github.com.svg?branch=source&style=flat-square)](https://travis-ci.org/AnthonyMastrean/anthonymastrean.github.com)
 
 ## Local Development
 
-The provided Vagrant machine will have all of the development dependencies installed. You just have to generate, start the preview engine, and browse to the forwarded address: [http://localhost:4000/](http://localhost:4000/).
+Octopress 3.0 and Jekyll 2.0 seem to work on a vanilla Windows machine now! Install these prerequisites
+
+```
+$ choco install --yes ruby ruby2.devkit nodejs
+```
+
+Install the site prerequisites, using Bundler, and build or serve the site using Jekyll.
+
+```
+$ bundle install
+$ bundle exec jekyll serve
+```
+
+## Vagrant
+
+Install Vagrant and VirtualBox.
+
+```
+$ choco install --yes vagrant virtualbox
+```
+
+Boot the Vagrant box, allowing it to provision with Puppet.
 
 ```
 $ vagrant up
-$ vagrant ssh --command 'pushd /vagrant && bundle exec rake generate preview'
 ```
 
-## Updating
-
-To [update](http://octopress.org/docs/updating/) Octopress
+And build or serve the site using Jekyll remotely on the box.
 
 ```
-$ git pull --no-rebase octopress master
-$ vagrant up
-$ vagrant ssh --command 'pushd /vagrant && bundle exec rake update'
+$ vagrant ssh --command 'cd /vagrant && bundle install && bundle exec jekyll serve'
 ```
+
+## Updating the Engine
+
+_(Update instructions for Octopress 3.0!)_
 
 ## Deploying
 
-The Vagrant machine is not setup with git or SSH keys or personal tokens. You can generate & preview the site and must commit for the Travis-CI build to complete the push.
+Via Octopress (as long as a `_deploy.yml` is available, after an `octopress deploy init git <URL>` call)
 
+```
+$ octopress deploy
+```
+
+## Travis CI
+
+Or, just commit and let Travis-CI handle the rest (not reimplemented for
+Octopress 3.0).

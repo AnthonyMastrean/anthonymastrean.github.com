@@ -1,18 +1,24 @@
 sudo: false
+
 branches:
   only:
     - source
+
 language: ruby
+
 rvm:
-  - 1.9.3
+  - 2.2.0
+
 cache: bundler
+
 before_script:
   - export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
   - git config --global user.name "Anthony Mastrean"
   - git config --global user.email "anthony.mastrean@gmail.com"
-  - bundle exec rake setup_travis[$REPO_URL]
+
 script:
-  - bundle exec rake generate deploy
+  - bundle exec jekyll build
+
 env:
   global:
     - GH_REPO="AnthonyMastrean/anthonymastrean.github.com"

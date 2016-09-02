@@ -1,22 +1,23 @@
 source 'https://rubygems.org'
+ruby RUBY_VERSION
 
-group :development do
-  gem 'rake', '~> 10.0'
-  gem 'jekyll', '~> 2.0'
-  gem 'jekyll-redirect-from', '~> 0.6.2'
-  gem 'octopress-hooks', '~> 2.2'
-  gem 'octopress-date-format', '~> 2.0'
-  gem 'jekyll-sitemap'
-  gem 'rdiscount', '~> 2.0'
-  gem 'RedCloth', '~> 4.2.9'
-  gem 'haml', '~> 4.0'
-  gem 'compass', '~> 1.0.1'
-  gem 'sass-globbing', '~> 1.0.0'
-  gem 'rubypants', '~> 0.2.0'
-  gem 'rb-fsevent', '~> 0.9'
-  gem 'stringex', '~> 1.4.0'
-  gem 'execjs', '~> 2.3.0'
-  gem 'therubyracer', '~> 0.12.1'
+# jekyll
+gem 'jekyll', '3.2.1'
+
+# There's no way to bundle/lock cross-platform gems yet
+# group :windows, :optional => true do
+#   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+# end
+
+# themes
+gem 'minima'
+
+# plugins
+group :jekyll_plugins do
+  gem 'octopress', '~> 3.0'
+  gem 'jekyll-paginate'
 end
 
-gem 'sinatra', '~> 1.4.2'
+# If you want to use GitHub Pages, remove the 'gem 'jekyll'' above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# gem 'github-pages', group: :jekyll_plugins
