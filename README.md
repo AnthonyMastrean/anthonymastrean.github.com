@@ -1,6 +1,6 @@
 # anthonymastrean.com
 
-[![Build Status](https://img.shields.io/travis/AnthonyMastrean/anthonymastrean.github.com.svg?branch=source&style=flat-square)](https://travis-ci.org/AnthonyMastrean/anthonymastrean.github.com)
+http://anthonymastrean.com
 
 ## Getting Started
 
@@ -28,8 +28,4 @@ $ bundle exec jekyll serve
 
 ## Publishing
 
-We can deploy with Octopress
-
-```
-$ octopress deploy
-```
+Just push to the `master` branch and GitHub will do the rest!
