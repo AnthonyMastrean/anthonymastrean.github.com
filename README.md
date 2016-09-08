@@ -1,5 +1,7 @@
 # anthonymastrean.com
 
+![webpagetest](https://img.shields.io/badge/webpagetest-A%7CA%7CA%7CNA%7CF%7CX-green.svg?link=https://www.webpagetest.org/&link=https://www.webpagetest.org/result/160908_8W_2698/) ![ssllabs](https://img.shields.io/badge/ssl--report-T-red.svg?link=https://www.ssllabs.com/&link=https://www.ssllabs.com/ssltest/analyze.html?d=anthonymastrean.com)
+
 http://anthonymastrean.com
 
 ## Getting Started
