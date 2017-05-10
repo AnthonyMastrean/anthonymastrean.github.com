@@ -30,4 +30,4 @@ theme: minima
 gems: ['jekyll-paginate']
 
 # Paginatino
-paginate: 5
+paginate: 3
