@@ -1,6 +1,6 @@
 # anthonymastrean.com
 
-![webpagetest](https://img.shields.io/badge/webpagetest-A%7CA%7CA%7CNA%7CF%7CX-green.svg?link=https://www.webpagetest.org/&link=https://www.webpagetest.org/result/160908_8W_2698/) ![ssllabs](https://img.shields.io/badge/ssl--report-T-red.svg?link=https://www.ssllabs.com/&link=https://www.ssllabs.com/ssltest/analyze.html?d=anthonymastrean.com) ![webbloatscore](https://img.shields.io/badge/webbloatscore-2.24-red.svg?link=http://www.webbloatscore.com/&link=http://www.webbloatscore.com?url=http://anthonymastrean.com/)
+[![webpagetest](https://img.shields.io/badge/webpagetest-A%7CA%7CA%7CA%7CF%7CX-yellowgreen.svg)](http://www.webpagetest.org/result/170510_TN_1157/) [![ssllabs](https://img.shields.io/badge/ssl--report-T-red.svg)](https://www.ssllabs.com/ssltest/analyze.html?d=anthonymastrean.com) [![webbloatscore](https://img.shields.io/badge/webbloatscore-2.24-red.svg)](http://www.webbloatscore.com?url=http://anthonymastrean.com/)
 
 http://anthonymastrean.com
 
