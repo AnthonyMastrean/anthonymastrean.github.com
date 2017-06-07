@@ -32,6 +32,10 @@ The guest network doesn't have permission to access the dashboard without a fire
 
 So, now we have a $1000 black rectangle hanging on the wall. I'll let you know what ends up working.
 
+---
+
+Update: We had to lease a Windows PC from corporate IT and get a service credential with interactive desktop access so we could put the box on the network and hit the internal sites.
+
 ## Caveats
 
  1. The corporate network requires domain authentication and/or some kind of device registration that requires meeting some arcane security measures.
