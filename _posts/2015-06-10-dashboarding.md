@@ -34,8 +34,8 @@ So, now we have a $1000 black rectangle hanging on the wall. I'll let you know w
 
 ---
 
-Update: We had to lease a Windows PC from corporate IT and get a service credential with interactive desktop access so we could put the box on the network and hit the internal sites.
+Update: We had to lease a Windows PC from corporate IT and get a service credential with interactive desktop access so we could put the box on the network and hit the internal sites. The corporate network requires domain authentication and/or some kind of device registration that requires meeting some arcane security measures.
 
-## Caveats
+---
 
- 1. The corporate network requires domain authentication and/or some kind of device registration that requires meeting some arcane security measures.
+Update: I just saw "[Build Radiator](https://buildradiator.org/)", which was [specifically designed](https://github.com/BuildRadiator/BuildRadiator/wiki/Designed-to-use-corporate-guest-WiFi-networks) to get around nasty infosec policy. This would have literally saved us _months_ of wait time to get everything approved and running.
