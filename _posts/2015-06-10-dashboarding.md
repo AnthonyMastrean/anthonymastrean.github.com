@@ -38,4 +38,4 @@ Update: We had to lease a Windows PC from corporate IT and get a service credent
 
 ---
 
-Update: I just saw "[Build Radiator](https://buildradiator.org/)", which was [specifically designed](https://github.com/BuildRadiator/BuildRadiator/wiki/Designed-to-use-corporate-guest-WiFi-networks) to get around nasty infosec policy. This would have literally saved us _months_ of wait time to get everything approved and running.
+Update: I just saw [Build Radiator](https://buildradiator.org/), which was [specifically designed](https://github.com/BuildRadiator/BuildRadiator/wiki/Designed-to-use-corporate-guest-WiFi-networks) to get around nasty infosec policy. This would have literally saved us _months_ of wait time to get everything approved and running.
