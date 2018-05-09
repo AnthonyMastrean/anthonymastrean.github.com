@@ -17,7 +17,7 @@ title: "Anthony Mastrean"
 email: "anthony.mastrean@gmail.com"
 description: ""
 baseurl: ""
-url: "http://anthonymastrean.com"
+url: "anthonymastrean.com"
 permalink: "/blog/:title/"
 twitter_username: anthonymastrean
 github_username: anthonymastrean
