@@ -21,6 +21,7 @@ url: "anthonymastrean.com"
 permalink: "/blog/:title/"
 
 # Social
+rss: rss
 twitter_username: anthonymastrean
 github_username: anthonymastrean
 stackoverflow_userid: 3619
