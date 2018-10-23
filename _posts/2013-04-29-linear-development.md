@@ -6,13 +6,13 @@ date: 2013-04-29 08:24
 
 I only started using Mercurial (Hg) a few weeks ago, so I'm going out on a limb here. I'm going to describe what straight-line development is, why it's valuable, and how to practice it! This is what the commit graph looks like on most days, especially after waiting a few days to push to the public repository. The best things about DVCSs can also induce headaches.
 
-![01-merge-history]({{ site.url }}/assets/images/linear/01-merge-history.png)
+![merge history]({{ site.url }}/assets/images/linear-01-merge-history.png)
 
 You're seeing at least three merge commits across five lines of development (I don't know where these things come from!). That graph is pretty hard to follow. But, we're all working directly on the default branch. The contribution workflow should be very straight-forward. These aren't true feature-branch merges. They're remote repo race-to-pull-and-push-merge-commits!
 
 What we should see when we're done pushing is a straight line. There's something more clean, clear, and polite about this kind of history. And it's actually a truer representation of the way things were done. (Ignore the broken builds!)
 
-![02-straight-history]({{ site.url }}/assets/images/linear/02-straight-history.png)
+![straight history]({{ site.url }}/assets/images/linear-02-straight-history.png)
 
 > It's a good idea to provide these contribution guidelines in your repository, try a `CONTRIBUTING.txt` file!
 
@@ -92,7 +92,7 @@ Let's take a look at some screenshots of a rebase/histedit workflow that I perfo
 hg incoming
 ```
 
-![03-incoming]({{ site.url }}/assets/images/linear/03-incoming.png)
+![incoming]({{ site.url }}/assets/images/linear-03-incoming.png)
 
 An easy rebase, I was working in another part of the system.
 
@@ -100,7 +100,7 @@ An easy rebase, I was working in another part of the system.
 hg pull --rebase
 ```
 
-![04-pull-rebase]({{ site.url }}/assets/images/linear/04-pull-rebase.png)
+![pull rebase]({{ site.url }}/assets/images/linear-04-pull-rebase.png)
 
 A few local commits to go out.
 
@@ -108,7 +108,7 @@ A few local commits to go out.
 hg outgoing
 ```
 
-![05-outgoing]({{ site.url }}/assets/images/linear/05-outgoing.png)
+![outgoing]({{ site.url }}/assets/images/linear-05-outgoing.png)
 
 Fold them all into one another.
 
@@ -116,8 +116,8 @@ Fold them all into one another.
 hg histedit -o
 ```
 
-![06-histedit]({{ site.url }}/assets/images/linear/06-histedit.png)
-![07-histedit-start]({{ site.url }}/assets/images/linear/07-histedit-start.png)
+![histedit]({{ site.url }}/assets/images/linear-06-histedit.png)
+![histedit start]({{ site.url }}/assets/images/linear-07-histedit-start.png)
 
 Now, only one going out.
 
@@ -125,7 +125,7 @@ Now, only one going out.
 hg outgoing
 ```
 
-![08-outgoing-done]({{ site.url }}/assets/images/linear/08-outgoing-done.png)
+![outgoing done]({{ site.url }}/assets/images/linear-08-outgoing-done.png)
 
 And it's on its way!
 
@@ -140,7 +140,7 @@ You asked for it. Feature branches let you switch back to default and do hotfixe
 hg branch feature/import-big-layout
 ```
 
-![09-branch]({{ site.url }}/assets/images/linear/09-branch.png)
+![branch]({{ site.url }}/assets/images/linear-09-branch.png)
 
 Work on your feature until completion. When you're done and ready to synchronize, send this special commit. It tells Mercurial that your branch is no longer active.
 
@@ -155,7 +155,7 @@ hg up default
 hg merge feature/import-big-layout
 ```
 
-![10-up-merge]({{ site.url }}/assets/images/linear/10-up-merge.png)
+![up merge]({{ site.url }}/assets/images/linear-10-up-merge.png)
 
 Now, when we try to push, we get a scary alert.
 
@@ -165,7 +165,7 @@ Now, when we try to push, we get a scary alert.
 hg push
 ```
 
-![11-push]({{ site.url }}/assets/images/linear/11-push.png)
+![push]({{ site.url }}/assets/images/linear-11-push.png)
 
 What are we supposed to do with that? You could push default explicitly.
 
@@ -181,11 +181,9 @@ hg push --new-branch
 
 You'll see your feature branch break off of default and merge back, but it's self contained and still leaves default in a straight line.
 
-![12-commit-graph]({{ site.url }}/assets/images/linear/12-commit-graph.png)
+![commit graph]({{ site.url }}/assets/images/linear-12-commit-graph.png)
 
 I shouldn't have to warn you about this now, but if you ever do push your feature branch to the server, to collaborate or whatever, don't edit its history (always use the `--outgoing` option of `histedit`). The workflow should still work out in the end.
 
-
  [1]: http://mercurial.selenic.com/wiki/RebaseExtension
  [2]: http://mercurial.selenic.com/wiki/HisteditExtension
- [3]: https://github.com/AnthonyMastrean/anthonymastrean.github.com/tree/master/assets/images/straight-line-development
