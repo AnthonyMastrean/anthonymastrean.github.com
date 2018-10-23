@@ -10,4 +10,8 @@ Just push to `master` and GitHub will do the rest!
 
 ## Updating
 
- * [GitHub Pages Versions](https://pages.github.com/versions/)
+See the following references:
+
+ * [GitHub Pages](https://pages.github.com/versions/)
+ * [Jekyll](https://jekyllrb.com/docs/)
+ * [minima](https://github.com/jekyll/minima)
