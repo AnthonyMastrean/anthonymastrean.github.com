@@ -28,3 +28,6 @@ theme: minima
 
 # Plugins
 gems: ['jekyll-paginate']
+
+# Paginate
+paginate: 7
