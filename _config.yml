@@ -21,7 +21,10 @@ markdown: kramdown
 theme: minima
 
 # Plugins
-gems: ['jekyll-paginate']
+plugins:
+ - jekyll-feed
+ - jekyll-paginate
+ - jekyll-seo-tag
 
 # Paginate
 paginate: 7
