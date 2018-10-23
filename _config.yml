@@ -5,6 +5,7 @@ description: ""
 baseurl: ""
 url: "https://anthonymastrean.com"
 permalink: "/blog/:title/"
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
