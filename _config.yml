@@ -28,6 +28,3 @@ theme: minima
 
 # Plugins
 gems: ['jekyll-paginate']
-
-# Paginatino
-paginate: 5
