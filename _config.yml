@@ -19,8 +19,11 @@ description: ""
 baseurl: ""
 url: "anthonymastrean.com"
 permalink: "/blog/:title/"
+
+# Social
 twitter_username: anthonymastrean
 github_username: anthonymastrean
+stackoverflow_userid: 3619
 
 # Build settings
 markdown: kramdown
