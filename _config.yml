@@ -31,3 +31,4 @@ gems: ['jekyll-paginate']
 
 # Paginate
 paginate: 7
+paginate_path: "/blog/page/:num/"
