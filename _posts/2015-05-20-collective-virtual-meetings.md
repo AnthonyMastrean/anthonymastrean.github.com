@@ -40,6 +40,6 @@ If you must require a code to dial in to the audio line, most phones should supp
 
 You should provide the link to the downloadable recording, because who wants to stream the recording when WebEx's plugin asks for these permissions?
 
-![webex]({{ site.url }}/images/webex.png)
+![webex]({{ site.url }}/assets/images/webex.png)
 
 If you're awesome, you'll convert the recordings to a normal format using their [recording editor](https://chocolatey.org/packages/webexeditor).
