@@ -26,7 +26,7 @@ Get-TfsItemHistory *.cs -Recurse -IncludeItems `
 
 I queried one of our toughest releases, which had a high defect count and ended up needing a lot of hardening sprints (ugh). The data showed that 2% of the files were responsible for 20% of check-ins.
 
-![budding]({{ site.url }}/images/budding.png)
+![budding codebase graph]({{ site.url }}/assets/images/budding.png)
 
 These charts seem to have exponential curves. In this project, 10 files were responsible for the top 5% of the check-ins. I'm really into this chart. It supports our engineering principles, is actionable, and seems to be more valuable than other reports (like cyclomatic complexity).
 
