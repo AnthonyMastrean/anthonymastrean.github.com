@@ -6,25 +6,25 @@ baseurl: ""
 url: "anthonymastrean.com"
 permalink: "/blog/:title/"
 
-# Theme
-minima:
-  date_format: "%b %-d, %Y"
-
-# Social
-rss: rss
-twitter_username: anthonymastrean
-github_username: anthonymastrean
-stackoverflow_userid: 3619
-
 # Build settings
 markdown: kramdown
 theme: minima
+
+# Theme
+minima:
+  date_format: "%b %-d, %Y"
 
 # Plugins
 plugins:
  - jekyll-feed
  - jekyll-paginate
  - jekyll-seo-tag
+
+# Social
+rss: rss
+twitter_username: anthonymastrean
+github_username: anthonymastrean
+stackoverflow_userid: 3619
 
 # Paginate
 paginate: 7
