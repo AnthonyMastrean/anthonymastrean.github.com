@@ -3,22 +3,20 @@ title: "Anthony Mastrean"
 email: "anthony.mastrean@gmail.com"
 description: ""
 baseurl: ""
-url: "anthonymastrean.com"
+url: "https://anthonymastrean.com"
 permalink: "/blog/:title/"
 
 # Build settings
 markdown: kramdown
 theme: minima
-
-# Theme
-minima:
-  date_format: "%b %-d, %Y"
-
-# Plugins
 plugins:
  - jekyll-feed
  - jekyll-paginate
  - jekyll-seo-tag
+ 
+# Theme
+minima:
+  date_format: "%b %-d, %Y"
 
 # Social
 rss: rss
