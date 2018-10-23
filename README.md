@@ -7,3 +7,7 @@ https://anthonymastrean.com
 ## Getting Started
 
 Just push to `master` and GitHub will do the rest!
+
+## Updating
+
+ * [GitHub Pages Versions](https://pages.github.com/versions/)
