@@ -13,7 +13,7 @@ applications:
 $ choco install --yes ruby ruby2.devkit nodejs
 ```
 
-## Building the Site
+## Building
 
 Install the site prerequisites.
 
