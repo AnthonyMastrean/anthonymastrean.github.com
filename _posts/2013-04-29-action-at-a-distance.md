@@ -6,7 +6,7 @@ date: 2013-04-29 00:00
 
 I told them not to touch that code without doing some analysis... what could it possibly break?
 
-![power]({{ site.url }}/images/power.png)
+![power]({{ site.url }}/assets/images/power.png)
 
 ----
 
