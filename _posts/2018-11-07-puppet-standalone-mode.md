@@ -12,4 +12,10 @@ We're all in over our heads with containers, but you still need to configure and
 
 So, you think you'll try running Puppet in "standalone" mode. Well... that's easier said than done and I'm not sure if it's worth it vs. learning how to run a Puppet master. But, it's the situation we're in so let's review.
 
+## Development
 
+Let's start with development of the Puppet manifests. We're going to trash this machine and we don't want to wait for IT to reset or restore a snapshot. So, we definitely want to start by using local VMs. Let's get started with Vagrant.
+
+```
+$ choco install -y vagrant virtualbox
+```
