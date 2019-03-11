@@ -2,7 +2,7 @@
 
 # anthonymastrean.com
 
-[![twitter](https://raw.githubusercontent.com/aleen42/badges/master/src/twitter.svg)](https://mobile.twitter.com/AnthonyMastrean/)
+[![twitter](https://aleen42.github.io/badges/src/twitter.svg)](https://mobile.twitter.com/AnthonyMastrean/)
 
 https://anthonymastrean.com
 
