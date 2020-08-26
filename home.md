@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Home
+permalink: /
 ---
 
 > See my [story](https://stackoverflow.com/story/anthonymastrean) (or [resume](https://stackoverflow.com/cv/anthonymastrean)) on StackOverflow.

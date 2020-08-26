@@ -1,9 +1,0 @@
----
-layout: post
-title: "Action at a Distance"
-date: 2013-04-29 00:00
----
-
-I told them not to touch the power management code without doing some analysis... what could it possibly [break](https://en.wikipedia.org/wiki/Action_at_a_distance_(computer_programming))?
-
-![power loop dependency graph]({{ site.url }}/assets/images/power.png)
